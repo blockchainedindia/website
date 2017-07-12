@@ -1,0 +1,292 @@
+{% extends '../layout.html' %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#inSlider" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>We are the <br>
+                        Blockchain Community of<br>
+                        India</h1>
+                    <p>Connecting entrepreneurs, blockchain ethusiasts and startups.</p>
+                    <p>
+                        <a class="btn btn-lg btn-primary page-scroll" href="#reach" role="button">Find us near you</a>
+                        <a class="caption-link page-scroll" href="#contact" role="button">Connect with us</a>
+                    </p>
+                </div>
+                <div class="carousel-image wow zoomIn">
+                    <img class="banner-overlay-logo" src="http://i.imgur.com/8Rsa4Yy.png" alt="blockchainedindia"/>
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back one"></div>
+
+        </div>
+        <div class="item">
+            <div class="container">
+                <div class="carousel-caption blank">
+                    <h1>We encourage and promote <br/> blockchain.</h1>
+                    <p>Join us and learn, grow, build with us.</p>
+                    <p><a class="btn btn-lg btn-primary" href="http://blog.blockchainedindia.com" role="button">Read More</a></p>
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back two"></div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<section id="reach" class="container features">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1>Our Reach<br/> <span class="navy"> in 4 cities and counting</span> </h1>
+            <p>If you want us in your city next, contact us. </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 wow fadeInLeft">
+            <div class="team-member">
+                <img src="http://i.imgur.com/TzE4rNy.jpg" class="img-responsive img-circle img-small" alt="">
+                <h4><span class="navy">Bangalore</span> Karnataka</h4>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="team-member wow zoomIn">
+                <img src="http://i.imgur.com/bA3g5OH.jpg" class="img-responsive img-circle img-small" alt="">
+                <h4>New <span class="navy">Delhi</span></h4>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="team-member wow fadeInRight">
+                <img src="http://i.imgur.com/WzuEXXY.jpg" class="img-responsive img-circle img-small" alt="">
+                <h4><span class="navy">Hyderabad</span></h4>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="team-member wow fadeInLeft">
+                <img src="http://i.imgur.com/YTtVoCf.jpg" class="img-responsive img-circle img-small" alt="">
+                <h4><span class="navy">Ahmedabad</span> Gujrat</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="events" class="timeline gray-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>Upcoming Events</h1>
+                <p>If you would like to host an event with us, contact us</p>
+            </div>
+        </div>
+        <div class="row features-block">
+
+            <div class="col-lg-12">
+                <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
+                    <!-- Loop -->
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon navy-bg">
+                            <i class="fa fa-briefcase"></i>
+                        </div>
+
+                        <div class="vertical-timeline-content">
+                            <h2>Blockchain</h2>
+                            <p>To be updated.</p>
+                            <!-- <a href="/events.html" class="btn btn-xs btn-primary"> More info</a> -->
+                            <span class="vertical-date"> Bangalore <br/> <small>June 24</small> </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="team" class="gray-section team">
+    <div class="container">
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>Our Team</h1>
+                <p>Alone we can do so little, together we can do so much.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 wow fadeInLeft">
+                <div class="team-member">
+                    <img src="http://i.imgur.com/6kFWdvQ.jpg" class="img-responsive img-circle img-small" alt="">
+                    <h4><span class="navy">Akshay</span> Aggarwal</h4>
+                    <p>Startup, Technology and community building enthusiast. <br>
+                        Fellow at DraperU</p>
+                    <ul class="list-inline social-icon">
+                        <li><a href="https://twitter.com/howdy_akshay"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/akshay.aggarwal.10"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/akshay-aggarwal/"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="team-member wow zoomIn">
+                    <img src="http://i.imgur.com/b7vjK2N.jpg" class="img-responsive img-circle img-small" alt="">
+                    <h4>Kumar <span class="navy">Anirudha</span></h4>
+                    <p>Tech Evangelist, open source contributor and mentor.</p>
+                    <ul class="list-inline social-icon">
+                        <li><a href="https://twitter.com/kranirudha"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://github.com/anistark"><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/kranirudha"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4 wow fadeInRight">
+                <div class="team-member">
+                    <img src="http://i.imgur.com/MEZR12i.png" class="img-responsive img-circle img-small" alt="">
+                    <h4><span class="navy">Karthika</span> Sivakumar</h4>
+                    <p>Community Manager at Thoughfactory. Excited about the future of Blockchain.</p>
+                    <ul class="list-inline social-icon">
+                        <li><a href="https://www.facebook.com/karthikasiv"><i class="fa fa-facebook"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 wow fadeInLeft">
+                <div class="team-member">
+                    <img src="http://i.imgur.com/qdG7ZQB.jpg" class="img-responsive img-circle img-small" alt="">
+                    <h4><span class="navy">Advaith</span> Mohan</h4>
+                    <p>CoFounder @Wagr.<br>
+                        Dedicated to a better future for humanity.</p>
+                    <ul class="list-inline social-icon">
+                        <li><a href="https://twitter.com/advaithmohan90"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/advaithm"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/advaith-mohan-90505047"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4 wow zoomIn">
+                <div class="team-member">
+                    <img src="http://i.imgur.com/0pQGSpT.jpg" class="img-responsive img-circle img-small" alt="">
+                    <h4><span class="navy">Manav</span> Ailawadi</h4>
+                    <p>Entrepreneur</p>
+                    <ul class="list-inline social-icon">
+                        <li><a href="https://www.facebook.com/manav.ailawadi"><i class="fa fa-facebook"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4 wow fadeInRight">
+                <div class="team-member">
+                    <img src="http://i.imgur.com/Il3eqP6.jpg" class="img-responsive img-circle img-small" alt="">
+                    <h4><span class="navy">Kashyap</span> Kompella</h4>
+                    <p>Founder at fRndzZy</p>
+                    <ul class="list-inline social-icon">
+                        <li><a href="https://www.facebook.com/kashyapkomp"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/kashyapk"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="partners" class="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>Our Partners</h1>
+                <p>Contact us if you would like to partner with us too.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2 col-lg-offset-2 features-text">
+                <img class="partner-logo" src="http://i.imgur.com/yqVKOCJ.png" title="source: imgur.com" />
+            </div>
+            <div class="col-lg-2 features-text">
+                <img class="partner-logo" src="http://i.imgur.com/RTd44cg.png" title="source: imgur.com" />
+            </div>
+            <div class="col-lg-2 features-text">
+                <img class="partner-logo" src="http://i.imgur.com/UjWUgyR.png" title="91Springboard" />
+            </div>
+            <div class="col-lg-2 features-text">
+                <img class="partner-logo" src="http://i.imgur.com/xi4BZ5B.jpg" title="source: imgur.com" />
+            </div>
+            <!-- <div class="col-lg-2 features-text">
+                <img class="partner-logo" src="http://i.imgur.com/ZasYbTm.png" title="source: imgur.com" />
+            </div> -->
+            <!-- <div class="col-lg-2 features-text">
+                <img class="partner-logo" src="http://i.imgur.com/PZx5aHx.png" title="source: imgur.com" />
+            </div> -->
+            <!-- <div class="col-lg-2 features-text">
+                <img class="partner-logo" src="http://i.imgur.com/k1SWqbf.png" title="source: imgur.com" />
+            </div> -->
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="gray-section contact">
+    <div class="container">
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>Contact Us</h1>
+                <p></p>
+            </div>
+        </div>
+        <div class="row m-b-lg">
+            <div class="col-lg-7 col-lg-offset-3">
+                <p class="m-t-sm">
+                <form class="m-t validate" role="form" action="http://blockchainedindia.us15.list-manage.com/subscribe/post?u=43f23a03fbc4cf7179d9d1800&amp;id=de00b92d69" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+                    <div class="form-group">
+                        <input type="text" class="form-control email" id="mce-fname" name="FNAME" placeholder="First Name" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control email" id="mce-lname" name="LNAME" placeholder="Last Name" />
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control email" id="mce-email" name="EMAIL" placeholder="Your email here" />
+                    </div>
+                    <button type="submit" class="btn btn-primary block full-width m-b">Subscribe to our newsletter</button>
+                </form>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <a href="mailto:contact@blockchainedindia.com" class="btn btn-primary">Mail Us</a>
+                <p class="m-t-sm">
+                    Or follow us on social platform
+                </p>
+                <ul class="list-inline social-icon">
+                    <li><a href="https://twitter.com/blockchainedind"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/blockchainedindia/"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://github.com/blockchainedindia"><i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+                <p><strong>&copy; 2017 Blockchained India</strong><br/> An open community for blockchain enthusiasts.</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
