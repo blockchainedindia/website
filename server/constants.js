@@ -179,3 +179,60 @@ exports.teamMembers = function() {
         }
     ]
 };
+
+exports.events = function () {
+    return [
+        {
+            'eventId': 1,
+            'eventSlug': 'blr_intro',
+            'name': 'Blockchain beyond Bitcoin',
+            'detail': '',
+            'date': '2017-04-01',
+            'cityCode': 'blr',
+            'location': 'Thought Factory Social, Diamond District, Tower C, 2nd Floor, 560071, H A L Old Airport Rd, ISRO Colony, Domlur, Bangalore',
+            'startTime': '16:00:00',
+            'endTime': '18:00:00',
+            'partners': ['Thought Factory Social'],
+            'sponsors': ['AWS'],
+            'hostMemberHandles': ['akshay','anistark','advaith','karthika'],
+            'eventLinks': {
+                'meetup': 'https://www.meetup.com/blockchainindia/events/238764602'
+            }
+        },
+        {
+            'eventId': 2,
+            'eventSlug': 'blr_intro_ncr',
+            'name': 'Blockchain beyond Bitcoin - Delhi Chapter',
+            'detail': '',
+            'date': '2017-04-29',
+            'cityCode': 'ncr',
+            'location': '91 Springboard, E-43/1, Okhla Phase II, New Delhi',
+            'startTime': '10:00:00',
+            'endTime': '12:00:00',
+            'partners': ['91 Springboard'],
+            'sponsors': [],
+            'hostMemberHandles': ['akshay','manav'],
+            'eventLinks': {
+                'meetup': 'https://www.meetup.com/blockchainindia/events/239157507'
+            }
+        },
+        {
+            'eventId': 3,
+            'eventSlug': '',
+            'name': '',
+            'detail': '',
+            'date': '',
+            'cityCode': '',
+            'location': '',
+            'startTime': '',
+            'endTime': '',
+            'partners': [''],
+            'sponsors': [],
+            'hostMemberHandles': [],
+            'eventLinks': {
+                'meetup': '',
+                'facebook': ''
+            }
+        }
+    ]
+};

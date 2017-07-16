@@ -13,7 +13,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/about', function(req, res, next) {
-    res.render('general/about', { title: 'About SNHS' });
+    res.render('general/about', { title: 'Blockchained India' });
 });
 
 router.get('/demo', function(req, res, next) {
