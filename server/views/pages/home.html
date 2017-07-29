@@ -143,26 +143,15 @@
                 <p>Contact us if you would like to partner with us too.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-2 features-text">
-                <img class="partner-logo" src="http://i.imgur.com/yqVKOCJ.png" title="Thought Factory Social" />
+        {% for partnerRowData in partnerData %}
+            <div class="row">
+                {% for partnerData in partnerRowData %}
+                    <div class="col-lg-2 features-text">
+                        <img class="partner-logo" src="{{partnerData['partnerLogo']}}" title="{{partnerData['partnerName']}}" />
+                    </div>
+                {% endfor %}
             </div>
-            <div class="col-lg-2 features-text">
-                <img class="partner-logo" src="http://i.imgur.com/RTd44cg.png" title="AWS" />
-            </div>
-            <div class="col-lg-2 features-text">
-                <img class="partner-logo" src="http://i.imgur.com/UjWUgyR.png" title="91Springboard" />
-            </div>
-            <div class="col-lg-2 features-text">
-                <img class="partner-logo" src="http://i.imgur.com/xi4BZ5B.jpg" title="Startup Delhi" />
-            </div>
-            <!--<div class="col-lg-2 features-text">-->
-                <!--<img class="partner-logo" src="http://i.imgur.com/n2SnVn4.png" title="One Co Works" />-->
-            <!--</div>-->
-            <!--<div class="col-lg-2 features-text">-->
-                <!--<img class="partner-logo" src="http://i.imgur.com/PZx5aHx.png" title="Collab House" />-->
-            <!--</div>-->
-        </div>
+        {% endfor %}
     </div>
 </section>
 

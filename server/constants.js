@@ -236,3 +236,72 @@ exports.events = function () {
         }
     ]
 };
+
+exports.partners = function() {
+    return [
+        {
+            'partnerId': 1,
+            'partnerSlug': 'tfs',
+            'partnerName': 'Thought Factory Social',
+            'partnerLogo': 'http://i.imgur.com/yqVKOCJ.jpg',
+            'isActive': true,
+            'partnerType': 'general'
+        },
+        {
+            'partnerId': 2,
+            'partnerSlug': 'aws',
+            'partnerName': 'AWS',
+            'partnerLogo': 'http://i.imgur.com/RTd44cg.jpg',
+            'isActive': true,
+            'partnerType': 'general'
+        },
+        {
+            'partnerId': 3,
+            'partnerSlug': '91springboard',
+            'partnerName': '91Springboard',
+            'partnerLogo': 'http://i.imgur.com/UjWUgyR.jpg',
+            'isActive': true,
+            'partnerType': 'general'
+        },
+        {
+            'partnerId': 4,
+            'partnerSlug': 'startupdelhi',
+            'partnerName': 'Startup Delhi',
+            'partnerLogo': 'http://i.imgur.com/yqVKOCJ.jpg',
+            'isActive': true,
+            'partnerType': 'general'
+        },
+        {
+            'partnerId': 5,
+            'partnerSlug': 'thub',
+            'partnerName': 'THub',
+            'partnerLogo': 'http://i.imgur.com/wUDgPKR.jpg',
+            'isActive': true,
+            'partnerType': 'general'
+        },
+        {
+            'partnerId': 6,
+            'partnerSlug': 'tlabs',
+            'partnerName': 'T-Labs',
+            'partnerLogo': 'http://i.imgur.com/2tPVxmS.jpg',
+            'isActive': false,
+            'partnerType': 'general'
+        },
+        {
+            'partnerId': 7,
+            'partnerSlug': 'onecoworks',
+            'partnerName': 'One Co Works',
+            'partnerLogo': 'http://i.imgur.com/n2SnVn4.jpg',
+            'isActive': false,
+            'partnerType': 'general'
+        },
+        {
+            'partnerId': 8,
+            'partnerSlug': 'collabhouse',
+            'partnerName': 'Collab House',
+            'partnerLogo': 'http://i.imgur.com/PZx5aHx.jpg',
+            'isActive': false,
+            'partnerType': 'general'
+        }
+    ];
+};

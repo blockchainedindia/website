@@ -16,6 +16,10 @@ exports.structureViewData = function(viewKey) {
     else if (viewKey == 'team') {
         allData = constants.teamMembers();
     }
+    else if (viewKey == 'partner') {
+        var rowLimit = 6;
+        allData = constants.partners();
+    }
     var columnKey = 0;
     var allDataStructured = {};
     var allDataStructuredSingle = [];
