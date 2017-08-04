@@ -10,7 +10,6 @@ router.get('/', function(req, res, next) {
     var citiesData = helpers.structureViewData('city');
     var teamData = helpers.structureViewData('team');
     var partnerData = helpers.structureViewData('partner');
-    console.log(partnerData);
     res.render('pages/home', { title: 'Blockchained India', citiesData: citiesData, teamData: teamData, partnerData: partnerData });
 });
 

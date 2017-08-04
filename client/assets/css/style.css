@@ -41,7 +41,7 @@ canvas {
     position: absolute;
     z-index: 10;
     background: rgba(25,25,25,.5);
-    top: 34%;
+    top: 11%;
     left: 50%;
     margin-left: -50%;
     /*padding: 2rem;*/
@@ -217,4 +217,3 @@ a:hover {
 .corner-ribbon.red{background: #e43;}
 .corner-ribbon.orange{background: #e82;}
 .corner-ribbon.yellow{background: #ec0;}
-
