@@ -1,0 +1,103 @@
+<html>
+<head>
+	<meta name="language" content="en-us" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description"
+		  content="Blockchained India is a community to gather all VC, investors, entrepreneurs, blockchain enthusiatic, developers and anybody interested in learning and growing with us." />
+	<meta name="keywords"
+		  content="blockchain,india,bangalore,anistark,blockchained,blockchainedindia,kumar,anirudha,Akshay,Agarwal" />
+	<meta name="classification" content="blockchain,community,india,bangalore,meetup" />
+	<meta name="distribution" content="Global" />
+	<meta name="rating" content="General" />
+	<meta name="robots" content="index, follow" />
+	<meta name="revisit-after" content="1 days" />
+	<meta name="creator" content="Kumar Anirudha [anistark] (anirudha@blockchainedindia.com)" />
+	<meta name="publisher" content="Kumar Anirudha [anistark] anirudha.org" />
+	<title>Blockchained India</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+    .img-inner {
+        padding-bottom: 7rem;
+    }
+    .reset-inner {
+        top: 0%;
+    }
+    #wrapper {
+        perspective: 700px;
+        perspective-origin: 50% 50%;
+    }
+
+    .card {
+        position: relative;
+        margin: 100px auto;
+        width: 361px;
+        height: 500px;
+        cursor: pointer;
+        transform-style: preserve-3d;
+        transition: transform 1.0s cubic-bezier(0,.75,.25,1);
+    }
+
+    .face {
+        position: absolute;
+        width: 361px;
+        height: 500px;
+        backface-visibility: hidden;
+    }
+
+    .side2 {
+        transform: rotateY(180deg);
+    }
+    </style>
+</head>
+<body>
+	<div class="panel reset-inner">
+        <!-- Rebranding Start -->
+        <section id="wrapper">
+            <div class="card">
+                <div class="face side1">
+                  <!-- <img src="http://i.imgur.com/8Rsa4Yy.png"> -->
+                  <div class="img-inner">
+                      <img src="http://i.imgur.com/8Rsa4Yy.png" alt="logo" style="width:12rem;height:auto;">
+                  </div>
+                  <h1>Blockchained India</h1>
+                  <span>A community for blockchain enthusiasts</span>
+                </div>
+                <div class="face side2">
+                    <!-- <img src="http://i.imgur.com/3aUT4Yr.png"> -->
+                    <div>
+                        <img src="http://i.imgur.com/3aUT4Yr.png" alt="logo" style="width:20rem;height:auto;">
+                    </div>
+            		<h1>Blockchained <font style="color: #de8930;">India</font></h1>
+            		<span>A community for blockchain enthusiasts</span>
+                </div>
+            </div>
+        <section>
+        <!-- Rebranding End -->
+	</div>
+	<div id="particles-js"></div>
+	<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+    <script>
+        var angle = 0;
+        $(".card").click(function(event) {
+          angle += 180;
+          if ($.browser.webkit) {
+            $(this).css('webkitTransition', '-webkit-transform 1.0s cubic-bezier(0,.75,.25,1)');
+            $(this).css('webkitTransform', 'rotateY(' + angle + 'deg)');
+          } else if ($.browser.mozilla) {
+            $(this).css('MozTransform', '-moz-transform 1.0s cubic-bezier(0,.75,.25,1)');
+            $(this).css('MozTransform', 'rotateY(' + angle + 'deg)');
+          } else if ($.browser.msie) {
+            $(this).css('msTransform', '-ms-transform 1.0s cubic-bezier(0,.75,.25,1)');
+            $(this).css('msTransform', 'rotateY(' + angle + 'deg)');
+          } else if ($.browser.opera) {
+            $(this).css('oTransform', '-o-transform 1.0s cubic-bezier(0,.75,.25,1)');
+            $(this).css('oTransform', 'rotateY(' + angle + 'deg)');
+          }
+        });
+    </script>
+</body>
+</html>

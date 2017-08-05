@@ -29,4 +29,8 @@ router.get('/events', function(req, res, next) {
     res.render('pages/events', { title: 'Events | Blockchained India' });
 });
 
+router.get('/rebranding', function(req, res, next) {
+    res.render('rebranding', { title: 'Blockchained India' });
+});
+
 module.exports = router;
