@@ -3,59 +3,13 @@
 {% block title %}{% endblock %}
 
 {% block content %}
-<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
-        <li data-target="#inSlider" data-slide-to="1"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1>We are the <br>
-                        Blockchain Community of<br>
-                        India</h1>
-                    <p>Connecting entrepreneurs, blockchain ethusiasts and startups.</p>
-                    <p>
-                        <a class="btn btn-lg btn-primary page-scroll" href="#reach" role="button">Find us near you</a>
-                        <a class="caption-link page-scroll" href="#contact" role="button">Connect with us</a>
-                    </p>
-                </div>
-                <div class="carousel-image wow zoomIn">
-                    <img class="banner-overlay-logo" src="http://i.imgur.com/3aUT4Yr.png" alt="blockchainedindia"/>
-                </div>
-            </div>
-            <!-- Set background for slide in css -->
-            <div class="header-back one"></div>
-
-        </div>
-        <div class="item">
-            <div class="container">
-                <div class="carousel-caption blank">
-                    <h1>We encourage and promote <br/> blockchain.</h1>
-                    <p>Join us and learn, grow, build with us.</p>
-                    <p><a class="btn btn-lg btn-primary" href="http://blog.blockchainedindia.com" role="button">Read More</a></p>
-                </div>
-            </div>
-            <!-- Set background for slide in css -->
-            <div class="header-back two"></div>
-        </div>
-    </div>
-    <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
+{% include '../components/header.html' %}
 
 <section id="reach" class="container features">
     <div class="row">
         <div class="col-lg-12 text-center">
             <div class="navy-line"></div>
-            <h1>Our Reach<br/> <span class="navy"> in 4 cities and counting</span> </h1>
+            <h1>Our Reach<br/> <span class="navy"> in {{ citiesCount }} cities and counting</span> </h1>
             <p>If you want us in your city next, contact us. </p>
         </div>
     </div>
@@ -92,25 +46,10 @@
                             <i class="fa fa-briefcase"></i>
                         </div>
                         <div class="vertical-timeline-content">
-                            <h2>Blockchain Landscape</h2>
-                            <p> - Introduction to ICOs<br>
-                                - Smart contract development using Solidity<br>
-                                - Networking
-                            </p>
-                            <a href="https://www.facebook.com/events/465363837171666" class="btn btn-xs btn-primary">Facebook</a>
-                            <a href="https://www.meetup.com/blockchainindia/events/241870519" class="btn btn-xs btn-primary">Meetup</a>
-                            <span class="vertical-date"> Bangalore <br/> <small>August 5</small> </span>
-                        </div>
-                    </div>
-                    <div class="vertical-timeline-block">
-                        <div class="vertical-timeline-icon navy-bg">
-                            <i class="fa fa-briefcase"></i>
-                        </div>
-                        <div class="vertical-timeline-content">
                             <h2>Blockchain</h2>
                             <p>To be updated.</p>
                             <!-- <a href="/events.html" class="btn btn-xs btn-primary"> More info</a> -->
-                            <span class="vertical-date"> Hyderabad <br/> <small>August 14</small> </span>
+                            <span class="vertical-date"> Hyderabad <br/> <small>August 19</small> </span>
                         </div>
                     </div>
                 </div>
@@ -119,102 +58,9 @@
     </div>
 </section>
 
-<section id="team" class="gray-section team">
-    <div class="container">
-        <div class="row m-b-lg">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1>Our Team</h1>
-                <p>Alone we can do so little, together we can do so much.</p>
-            </div>
-        </div>
-        {% for teamColumnData in teamData %}
-        <div class="row">
-            {% for teamData in teamColumnData %}
-            <div class="col-sm-4 wow {{teamData['classKey']}}">
-                <div class="team-member">
-                    <img src="{{teamData['picture']}}" class="img-responsive img-circle img-small" alt="">
-                    <h4>{{teamData['preName']}} <span class="navy">{{teamData['name']}}</span> {{teamData['postName']}}</h4>
-                    <p>{{teamData['detail']}}</p>
-                    <ul class="list-inline social-icon">
-                        {% for socialData in teamData['socialData'] %}
-                            <li><a href="{{ socialData['socialLink'] }}"><i class="fa {{ socialData['socialIconClass'] }}"></i></a></li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-        {% endfor %}
-    </div>
-</section>
+{% include '../components/team.html' %}
 
-<section id="partners" class="features">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1>Our Partners</h1>
-                <p>Contact us if you would like to partner with us too.</p>
-            </div>
-        </div>
-        {% for partnerRowData in partnerData %}
-            <div class="row">
-                {% for partnerData in partnerRowData %}
-                    <div class="col-lg-2 features-text">
-                        <img class="partner-logo" src="{{partnerData['partnerLogo']}}" title="{{partnerData['partnerName']}}" />
-                    </div>
-                {% endfor %}
-            </div>
-        {% endfor %}
-    </div>
-</section>
+{% include '../components/partners.html' %}
 
-<section id="contact" class="gray-section contact">
-    <div class="container">
-        <div class="row m-b-lg">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1>Contact Us</h1>
-                <p></p>
-            </div>
-        </div>
-        <div class="row m-b-lg">
-            <div class="col-lg-7 col-lg-offset-3">
-                <p class="m-t-sm">
-                <form class="m-t validate" role="form" action="http://blockchainedindia.us15.list-manage.com/subscribe/post?u=43f23a03fbc4cf7179d9d1800&amp;id=de00b92d69" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-                    <div class="form-group">
-                        <input type="text" class="form-control email" id="mce-fname" name="FNAME" placeholder="First Name" />
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control email" id="mce-lname" name="LNAME" placeholder="Last Name" />
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control email" id="mce-email" name="EMAIL" placeholder="Your email here" />
-                    </div>
-                    <button type="submit" class="btn btn-primary block full-width m-b">Subscribe to our newsletter</button>
-                </form>
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <a href="mailto:contact@blockchainedindia.com" class="btn btn-primary">Mail Us</a>
-                <p class="m-t-sm">
-                    Or follow us on social platform
-                </p>
-                <ul class="list-inline social-icon">
-                    <li><a href="https://twitter.com/blockchainedind"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://www.facebook.com/blockchainedindia/"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://github.com/blockchainedindia"><i class="fa fa-github"></i></a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-                <p><strong>&copy; 2017 Blockchained India</strong><br/> An open community for blockchain enthusiasts.</p>
-            </div>
-        </div>
-    </div>
-</section>
+{% include '../components/contact.html' %}
 {% endblock %}
