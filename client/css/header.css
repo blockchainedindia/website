@@ -1,15 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display|Raleway:200,300,400");
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    line-height: 1.6;
-    font-family: Raleway, sans-serif;
-    font-weight: 200;
-}
 
 .header {
     position: relative;
@@ -36,69 +25,6 @@ body {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-}
-
-.item-pics {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 100%;
-    max-width: 700px;
-    margin: auto;
-    position: relative;
-}
-.item-pics figure {
-    position: relative;
-    width: 200px;
-    margin: 20px;
-    opacity: 0;
-    overflow: hidden;
-    cursor: pointer;
-    transform: translateX(20px);
-    transition: all 1s;
-}
-.item-pics figure.is-showing {
-    opacity: 1;
-    transform: translateX(0px);
-}
-.item-pics figure:hover figcaption {
-    left: 0%;
-}
-.item-pics figure:hover img {
-    transform: scale(1.1);
-}
-.item-pics figure img {
-    display: block;
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-}
-.item-pics figure figcaption {
-    position: absolute;
-    bottom: 5px;
-    left: -100%;
-    padding: 4px;
-    background: black;
-    color: white;
-    text-align: center;
-    font-family: Raleway, sans-serif;
-    font-size: 13px;
-    transition: all 0.3s ease-in-out;
-}
-
-h1 {
-    padding: 10px;
-    text-align: center;
-    font-family: Playfair Display, serif;
-}
-
-p {
-    max-width: 600px;
-    margin: auto;
-    padding: 10px 20px;
-    font-size: 19px;
 }
 
 .dummySpace {
