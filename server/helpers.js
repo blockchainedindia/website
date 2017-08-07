@@ -11,14 +11,20 @@ exports.structureViewData = function(viewKey) {
     var rowLimit = 3;
     var allData = [];
     if (viewKey == 'city') {
+        var rowLimit = 3;
         allData = constants.cities();
     }
     else if (viewKey == 'team') {
+        var rowLimit = 3;
         allData = constants.teamMembers();
     }
     else if (viewKey == 'partner') {
         var rowLimit = 6;
         allData = constants.partners();
+    }
+    else if (viewKey == 'mentors') {
+        var rowLimit = 3;
+        allData = constants.mentors();
     }
     var columnKey = 0;
     var allDataStructured = {};

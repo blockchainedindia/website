@@ -267,7 +267,7 @@ exports.partners = function() {
             'partnerId': 4,
             'partnerSlug': 'startupdelhi',
             'partnerName': 'Startup Delhi',
-            'partnerLogo': 'http://i.imgur.com/yqVKOCJ.jpg',
+            'partnerLogo': 'http://i.imgur.com/xi4BZ5B.jpg',
             'isActive': true,
             'partnerType': 'general'
         },
@@ -304,4 +304,23 @@ exports.partners = function() {
             'partnerType': 'general'
         }
     ];
+};
+
+exports.mentors = function() {
+    return [
+        {
+            'mentorId': 1,
+            'mentorHandle': '',
+            'preName': '',
+            'name': '',
+            'postName': '',
+            'picture': '',
+            'detail': '',
+            'socialHandles': {
+                'twitter': '',
+                'linkedin': ''
+            },
+            'isActive': true
+        }
+    ]
 };

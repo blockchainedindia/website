@@ -9,11 +9,10 @@ var helpers = require('../helpers');
 router.get('/', function(req, res, next) {
     var citiesData = helpers.structureViewData('city');
     var citiesCount = citiesData[0].length;
-    console.log(citiesData[0]);
-    console.log(citiesCount);
     var teamData = helpers.structureViewData('team');
     var partnerData = helpers.structureViewData('partner');
-    res.render('pages/home', { title: 'Blockchained India', citiesData: citiesData, teamData: teamData, partnerData: partnerData, citiesCount: citiesCount });
+    var mentorsData = helpers.structureViewData('mentors');
+    res.render('pages/home', { title: 'Blockchained India', citiesData: citiesData, teamData: teamData, partnerData: partnerData, citiesCount: citiesCount, mentorsData: mentorsData });
 });
 
 router.get('/about', function(req, res, next) {
