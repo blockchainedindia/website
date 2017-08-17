@@ -50,7 +50,7 @@ exports.cities = function() {
             'cityPreName': '',
             'cityPostName': '',
             'cityLogo': 'http://i.imgur.com/7rVXgi4.jpg',
-            'isActive': false
+            'isActive': true
         }
     ];
 };
