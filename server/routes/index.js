@@ -8,7 +8,11 @@ var helpers = require('../helpers');
 
 router.get('/', function(req, res, next) {
     var citiesData = helpers.structureViewData('city');
-    var citiesCount = citiesData[0].length;
+    var cityKeys = Object.keys(citiesData);
+    var citiesCount = 0;
+    for(var i = 0; i < cityKeys.length;i++){
+        citiesCount += citiesData[i].length;
+    }
     var teamData = helpers.structureViewData('team');
     var partnerData = helpers.structureViewData('partner');
     var mentorsData = helpers.structureViewData('mentors');
