@@ -143,83 +143,45 @@
             <p>A repository of talks from our past events</p>
         </div>
     </div>
-    <div class="hex_row_odd">
-        <div class="hex-center">
-            <div class="hexagon">
-                <div class="hex1">
-                    <div class="hex2" style="background: url('http://i.imgur.com/kQx8HjP.png') center no-repeat">
-                        <a href="http://anistark.github.io/talks/blockchainIntro">
-                            <div class="desc">
-                                <h2 class="hex-tile-h2">Dive into Blockchain</h2>
-                                <p>Kumar Anirudha</p>
+    {% for talksColumnId, talksColumnData in talksData %}
+        {% if talksColumnId%2 == 0 %}
+            <div class="hex_row_even">
+            {% for talkData in talksColumnData %}
+                <div class="hex-center">
+                    <div class="hexagon">
+                        <div class="hex1">
+                            <div class="hex2" style="background: url({{ talkData['talkImg'] }}) center no-repeat">
+                                <a href="{{ talkData['talkUrl'] }}">
+                                    <div class="desc">
+                                        <h2 class="hex-tile-h2">{{ talkData['talkTitle'] }}</h2>
+                                        <p>{{ talkData['speakerName'] }}</p>
+                                    </div>
+                                </a>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
+            {% endfor %}
             </div>
-        </div>
-        <div class="hex-center">
-            <div class="hexagon">
-                <div class="hex1">
-                    <div class="hex2" style="background: url('http://i.imgur.com/kQx8HjP.png') center no-repeat">
-                        <a href="http://anistark.github.io/talks/decentralising-with-ethereum">
-                            <div class="desc">
-                                <h2 class="hex-tile-h2">Decentralising with Ethereum</h2>
-                                <p>Kumar Anirudha</p>
+        {% else %}
+            <div class="hex_row_odd">
+            {% for talkData in talksColumnData %}
+                <div class="hex-center">
+                    <div class="hexagon">
+                        <div class="hex1">
+                            <div class="hex2" style="background: url({{ talkData['talkImg'] }}) center no-repeat">
+                                <a href="{{ talkData['talkUrl'] }}">
+                                    <div class="desc">
+                                        <h2 class="hex-tile-h2">{{ talkData['talkTitle'] }}</h2>
+                                        <p>{{ talkData['speakerName'] }}</p>
+                                    </div>
+                                </a>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
+            {% endfor %}
             </div>
-        </div>
-        <div class="hex-center">
-            <div class="hexagon">
-                <div class="hex1">
-                    <div class="hex2" style="background: url('http://i.imgur.com/kQx8HjP.png') center no-repeat">
-                        <a href="https://drive.google.com/file/d/0B4pGqvGd5e8iMG1sdy1YSU9IdkU/view?usp=sharing">
-                            <div class="desc">
-                                <h2 class="hex-tile-h2">Ethereum Smart Contract</h2>
-                                <p>Vinit Agrawal</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="hex_row_even">
-        <div class="hex-center">
-            <div class="hexagon">
-                <div class="hex1">
-                    <div class="hex2" style="background: url('http://i.imgur.com/kQx8HjP.png') center no-repeat">
-                        <a href="https://drive.google.com/file/d/0B4pGqvGd5e8iTTZ1VXBXRWdXRms/view?usp=sharing">
-                            <div class="desc">
-                                <h2 class="hex-tile-h2">Introduction to Blockchain</h2>
-                                <p>Kiran Naik Danavath</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="hex-center">
-            <div class="hexagon">
-                <div class="hex1">
-                    <div class="hex2" style="background: url('http://i.imgur.com/kQx8HjP.png') center no-repeat">
-                        <a href="https://drive.google.com/file/d/0B4pGqvGd5e8ic0Z5azN1bnJfWDA/view?usp=sharing">
-                            <div class="desc">
-                                <h2 class="hex-tile-h2">Unravel the Mystery - Blockchain</h2>
-                                <p>Vikas Singh</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="hex_row_odd">
-    </div>
+        {% endif %}
+    {% endfor %}
 </section>
-

@@ -324,3 +324,64 @@ exports.mentors = function() {
         }
     ]
 };
+
+exports.talks = function() {
+    return [
+        {
+            'talkId': 1,
+            'talkTitle': 'Dive into Blockchain',
+            'speakerName': 'Kumar Anirudha',
+            'talkImg': 'http://i.imgur.com/kQx8HjP.png',
+            'talkUrl': 'http://anistark.github.io/talks/decentralising-with-ethereum',
+            'isActive': true
+        },
+        {
+            'talkId': 2,
+            'talkTitle': 'Intial Coin Offering',
+            'speakerName': 'Akshay Agarwal',
+            'talkImg': 'http://i.imgur.com/kQx8HjP.png',
+            'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8ibXBnd2lvQWVlejQ/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 3,
+            'talkTitle': 'The Basics Of Ethereum',
+            'speakerName': 'Advaith Mohan',
+            'talkImg': 'http://i.imgur.com/kQx8HjP.png',
+            'talkUrl': 'http://slides.com/blockchainedindia/ethereumbasics/fullscreen#/',
+            'isActive': true
+        },
+        {
+            'talkId': 4,
+            'talkTitle': 'Decentralising with Ethereum',
+            'speakerName': 'Kumar Anirudha',
+            'talkImg': 'http://i.imgur.com/kQx8HjP.png',
+            'talkUrl': 'http://anistark.github.io/talks/decentralising-with-ethereum',
+            'isActive': true
+        },
+        {
+            'talkId': 5,
+            'talkTitle': 'Ethereum Smart Contract',
+            'speakerName': 'Vinit Agrawal',
+            'talkImg': 'http://i.imgur.com/kQx8HjP.png',
+            'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8iMG1sdy1YSU9IdkU/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 6,
+            'talkTitle': 'Introduction to Blockchain',
+            'speakerName': 'Kiran Naik Danavath',
+            'talkImg': 'http://i.imgur.com/kQx8HjP.png',
+            'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8iTTZ1VXBXRWdXRms/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 7,
+            'talkTitle': 'Unravel the Mystery - Blockchain',
+            'speakerName': 'Vikas Singh',
+            'talkImg': 'http://i.imgur.com/kQx8HjP.png',
+            'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8ic0Z5azN1bnJfWDA/view?usp=sharing',
+            'isActive': true
+        }
+    ]
+};

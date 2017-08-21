@@ -1,5 +1,5 @@
 var helpers = require('./server/helpers');
 
 console.log('=============> Test Starts <=============');
-//helpers.citiesData();
+helpers.talksDataStructured();
 console.log('==============> Test Ends <==============');

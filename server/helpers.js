@@ -59,3 +59,42 @@ exports.socialDataStructured = function(socialData) {
     }
     return socialStructuredData;
 };
+
+exports.talksDataStructured = function() {
+    var allDataStructured = {};
+    var maxColumnCount = {
+        0: 4,
+        1: 3
+    };
+    try {
+        var allTalksData = constants.talks();
+        var rowNum = 1;
+        var singleDataStructured = [];
+        for (var i = 1, len = allTalksData.length; i <= len; i++) {
+            var a = i-1;
+            if (allTalksData[a]['isActive']) {
+                if(singleDataStructured.length < maxColumnCount[rowNum % 2]) {
+                    allDataStructured[rowNum] = singleDataStructured;
+                }
+                else {
+                    singleDataStructured = [];
+                    rowNum++;
+                }
+                if (rowNum % 2 == 0) {
+                    if (allTalksData.hasOwnProperty(a)) {
+                        singleDataStructured.push(allTalksData[a]);
+                    }
+                }
+                else {
+                    if (allTalksData.hasOwnProperty(a)) {
+                        singleDataStructured.push(allTalksData[a]);
+                    }
+                }
+            }
+        }
+    }
+    catch (err) {
+        console.log('talksDataStructured ERR',err);
+    }
+    return allDataStructured;
+};
