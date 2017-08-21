@@ -1,1 +1,225 @@
-Talks
+<style>
+    /* Thanks to dmac37 for this hex technique */
+    @import url(https://fonts.googleapis.com/css?family=Lato:300);
+    /* Variables */
+    .hex-tile-h2 {
+        font-size: 20px;
+    }
+
+    .honeycomb {
+        margin: 0 auto;
+        text-align: center;
+        width: 960px;
+        margin-bottom: 20rem;
+    }
+
+    .hex_row_even {
+        display: inline-block;
+        margin: 0 auto -275px auto;
+        overflow: hidden;
+    }
+
+    .hex_row_odd {
+        display: inline-block;
+        margin: 0 auto -275px auto;
+        overflow: hidden;
+    }
+
+    .hex-center {
+        float: left;
+        margin: 20px 10px;
+        width: 220px;
+    }
+
+    .hexagon {
+        -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+        -webkit-transform: rotate(120deg);
+        transform: rotate(120deg);
+        cursor: pointer;
+        height: 440px;
+        overflow: hidden;
+        visibility: hidden;
+        width: 220px;
+    }
+
+    .hex1 {
+        -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+        -webkit-transform: rotate(-60deg);
+        transform: rotate(-60deg);
+        height: 100%;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .hex2 {
+        -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+        -webkit-transform: rotate(-60deg);
+        transform: rotate(-60deg);
+        height: 100%;
+        /*@include background-size(($width + ($width * .20)) ($width + ($width * .20)));
+        background-position: 50%;*/
+        position: relative;
+        visibility: visible;
+        width: 100%;
+    }
+
+    .desc {
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.5em;
+        font-weight: 300;
+        height: 440px;
+        line-height: 1.5em;
+        position: absolute;
+        text-align: center;
+        text-transform: uppercase;
+        visibility: visible;
+        width: 220px;
+    }
+    .desc.base {
+        background: rgba(230, 0, 98, 0.75);
+    }
+    .desc.one {
+        background: rgba(252, 171, 55, 0.75);
+    }
+    .desc.two {
+        background: rgba(169, 160, 50, 0.75);
+    }
+    .desc.three {
+        background: rgba(83, 70, 54, 0.75);
+    }
+    .desc h2 {
+        margin: 165px 20px 0 20px;
+    }
+    .desc p {
+        font-size: 0.8em;
+        text-transform: capitalize;
+    }
+    a:hover {
+        cursor: pointer; cursor: hand;
+    }
+
+</style>
+
+<script>
+    $(document).ready(function() {
+        var color = 'one';
+        var counter = 0;
+        $('.desc').hide();
+        $('.hexagon').hover(
+                function() {
+                    $(this).find('.desc').fadeIn('fast');
+                    counter++;
+                    if (counter === 0) {
+                        color = 'base';
+                    } else if (counter === 1) {
+                        color = 'one';
+                    } else if (counter === 2) {
+                        color = 'two';
+                    } else if (counter === 3) {
+                        color = 'three';
+                    } else if (counter >= 4){
+                        counter = 0 ;
+                        color = 'base';
+                    }
+                    $(this).find('.desc').addClass(color);
+                },
+                function() {
+                    $(this).find('.desc').fadeOut('fast', function() {
+                        $(this).removeClass(color);
+                    });
+                });
+    });
+</script>
+
+<section class="honeycomb">
+    <div class="row m-b-lg">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1>Talks</h1>
+            <p>A repository of talks from our past events</p>
+        </div>
+    </div>
+    <div class="hex_row_odd">
+        <div class="hex-center">
+            <div class="hexagon">
+                <div class="hex1">
+                    <div class="hex2" style="background: url('http://i.imgur.com/kQx8HjP.png') center no-repeat">
+                        <a href="http://anistark.github.io/talks/blockchainIntro">
+                            <div class="desc">
+                                <h2 class="hex-tile-h2">Dive into Blockchain</h2>
+                                <p>Kumar Anirudha</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hex-center">
+            <div class="hexagon">
+                <div class="hex1">
+                    <div class="hex2" style="background: url('http://i.imgur.com/kQx8HjP.png') center no-repeat">
+                        <a href="http://anistark.github.io/talks/decentralising-with-ethereum">
+                            <div class="desc">
+                                <h2 class="hex-tile-h2">Decentralising with Ethereum</h2>
+                                <p>Kumar Anirudha</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hex-center">
+            <div class="hexagon">
+                <div class="hex1">
+                    <div class="hex2" style="background: url('http://i.imgur.com/kQx8HjP.png') center no-repeat">
+                        <a href="https://drive.google.com/file/d/0B4pGqvGd5e8iMG1sdy1YSU9IdkU/view?usp=sharing">
+                            <div class="desc">
+                                <h2 class="hex-tile-h2">Ethereum Smart Contract</h2>
+                                <p>Vinit Agrawal</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hex_row_even">
+        <div class="hex-center">
+            <div class="hexagon">
+                <div class="hex1">
+                    <div class="hex2" style="background: url('http://i.imgur.com/kQx8HjP.png') center no-repeat">
+                        <a href="https://drive.google.com/file/d/0B4pGqvGd5e8iTTZ1VXBXRWdXRms/view?usp=sharing">
+                            <div class="desc">
+                                <h2 class="hex-tile-h2">Introduction to Blockchain</h2>
+                                <p>Kiran Naik Danavath</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hex-center">
+            <div class="hexagon">
+                <div class="hex1">
+                    <div class="hex2" style="background: url('http://i.imgur.com/kQx8HjP.png') center no-repeat">
+                        <a href="https://drive.google.com/file/d/0B4pGqvGd5e8ic0Z5azN1bnJfWDA/view?usp=sharing">
+                            <div class="desc">
+                                <h2 class="hex-tile-h2">Unravel the Mystery - Blockchain</h2>
+                                <p>Vikas Singh</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hex_row_odd">
+    </div>
+</section>
+
