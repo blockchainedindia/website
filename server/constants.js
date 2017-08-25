@@ -170,7 +170,7 @@ exports.teamMembers = function() {
             'name': 'Kashyap',
             'postName': 'Kompella',
             'picture': 'http://i.imgur.com/Il3eqP6.jpg',
-            'detail': 'Founder at fRndzZy.',
+            'detail': 'Founder at fRndzZy. Fellow at DraperU.',
             'socialHandles': {
                 'facebook': 'https://twitter.com/kashyapkomp',
                 'linkedin': 'https://www.linkedin.com/in/kashyapk'
