@@ -35,6 +35,10 @@ router.get('/events', function(req, res, next) {
     res.render('pages/events', { title: 'Events | Blockchained India' });
 });
 
+router.get('/gallery', function(req, res, next) {
+    res.render('pages/gallery', { title: 'Gallery | Blockchained India' });
+});
+
 router.get('/talks', function(req, res, next) {
     var talksData = helpers.talksDataStructured();
     res.render('pages/talks', { title: 'Talks | Blockchained India', talksData: talksData });
