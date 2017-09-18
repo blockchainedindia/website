@@ -382,6 +382,14 @@ exports.talks = function() {
             'talkImg': 'http://i.imgur.com/kQx8HjP.png',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8ic0Z5azN1bnJfWDA/view?usp=sharing',
             'isActive': true
+        },
+        {
+            'talkId': 8,
+            'talkTitle': 'The Stellar Consensus Protocol',
+            'speakerName': 'David Mazières',
+            'talkImg': 'https://i.imgur.com/0shxy8s.png',
+            'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8ibk51SXBIVXUwcDQ/view?usp=sharing',
+            'isActive': true
         }
     ]
 };
