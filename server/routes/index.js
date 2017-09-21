@@ -41,6 +41,7 @@ router.get('/gallery', function(req, res, next) {
 
 router.get('/talks', function(req, res, next) {
     var talksData = helpers.talksDataStructured();
+    // console.log(talksData);
     res.render('pages/talks', { title: 'Talks | Blockchained India', talksData: talksData });
 });
 

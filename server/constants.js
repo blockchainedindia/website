@@ -365,7 +365,7 @@ exports.talks = function() {
             'speakerName': 'Vinit Agrawal',
             'talkImg': 'http://i.imgur.com/kQx8HjP.png',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8iMG1sdy1YSU9IdkU/view?usp=sharing',
-            'isActive': true
+            'isActive': false
         },
         {
             'talkId': 6,
