@@ -13,7 +13,7 @@ exports.cities = function() {
             'cityName': 'Bangalore',
             'cityPreName': '',
             'cityPostName': 'Karnataka',
-            'cityLogo': 'http://i.imgur.com/TzE4rNy.jpg',
+            'cityLogo': 'https://i.imgur.com/TzE4rNy.jpg',
             'isActive': true
         },
         {
@@ -22,7 +22,7 @@ exports.cities = function() {
             'cityName': 'Delhi',
             'cityPreName': 'New',
             'cityPostName': '',
-            'cityLogo': 'http://i.imgur.com/bA3g5OH.jpg',
+            'cityLogo': 'https://i.imgur.com/bA3g5OH.jpg',
             'isActive': true
         },
         {
@@ -31,7 +31,7 @@ exports.cities = function() {
             'cityName': 'Hyderabad',
             'cityPreName': '',
             'cityPostName': '',
-            'cityLogo': 'http://i.imgur.com/WzuEXXY.jpg',
+            'cityLogo': 'https://i.imgur.com/WzuEXXY.jpg',
             'isActive': true
         },
         {
@@ -40,7 +40,7 @@ exports.cities = function() {
             'cityName': 'Ahmedabad',
             'cityPreName': '',
             'cityPostName': '',
-            'cityLogo': 'http://i.imgur.com/YTtVoCf.jpg',
+            'cityLogo': 'https://i.imgur.com/YTtVoCf.jpg',
             'isActive': false
         },
         {
@@ -49,7 +49,7 @@ exports.cities = function() {
             'cityName': 'Mumbai',
             'cityPreName': '',
             'cityPostName': '',
-            'cityLogo': 'http://i.imgur.com/7rVXgi4.jpg',
+            'cityLogo': 'https://i.imgur.com/7rVXgi4.jpg',
             'isActive': true
         }
     ];
@@ -98,7 +98,7 @@ exports.teamMembers = function() {
             'preName': '',
             'name': 'Akshay',
             'postName': 'Aggarwal',
-            'picture': 'http://i.imgur.com/6kFWdvQ.jpg',
+            'picture': 'https://i.imgur.com/6kFWdvQ.jpg',
             'detail': 'Startup, Technology and community building enthusiast. Fellow at DraperU.',
             'socialHandles': {
                 'twitter': 'https://twitter.com/howdy_akshay',
@@ -113,7 +113,7 @@ exports.teamMembers = function() {
             'preName': 'Kumar',
             'name': 'Anirudha',
             'postName': '',
-            'picture': 'http://i.imgur.com/b7vjK2N.jpg',
+            'picture': 'https://i.imgur.com/b7vjK2N.jpg',
             'detail': 'Tech Evangelist, open source contributor and mentor.',
             'socialHandles': {
                 'twitter': 'https://twitter.com/kranirudha',
@@ -128,7 +128,7 @@ exports.teamMembers = function() {
             'preName': '',
             'name': 'Karthika',
             'postName': 'Sivakumar',
-            'picture': 'http://i.imgur.com/MEZR12i.jpg',
+            'picture': 'https://i.imgur.com/MEZR12i.jpg',
             'detail': 'Community Manager at Thoughfactory. Excited about the future of Blockchain.',
             'socialHandles': {
                 'facebook': 'https://facebook.com/karthikasiv'
@@ -141,7 +141,7 @@ exports.teamMembers = function() {
             'preName': '',
             'name': 'Advaith',
             'postName': 'Mohan',
-            'picture': 'http://i.imgur.com/qdG7ZQB.jpg',
+            'picture': 'https://i.imgur.com/qdG7ZQB.jpg',
             'detail': 'CoFounder @Wagr. Dedicated to a better future for humanity.',
             'socialHandles': {
                 'twitter': 'https://twitter.com/advaithmohan90',
@@ -156,7 +156,7 @@ exports.teamMembers = function() {
             'preName': '',
             'name': 'Manav',
             'postName': 'Ailawadi',
-            'picture': 'http://i.imgur.com/0pQGSpT.jpg',
+            'picture': 'https://i.imgur.com/0pQGSpT.jpg',
             'detail': 'Entrepreneur',
             'socialHandles': {
                 'facebook': 'https://facebook.com/manav.ailawadi'
@@ -169,7 +169,7 @@ exports.teamMembers = function() {
             'preName': '',
             'name': 'Kashyap',
             'postName': 'Kompella',
-            'picture': 'http://i.imgur.com/Il3eqP6.jpg',
+            'picture': 'https://i.imgur.com/Il3eqP6.jpg',
             'detail': 'Founder at fRndzZy. Fellow at DraperU.',
             'socialHandles': {
                 'facebook': 'https://twitter.com/kashyapkomp',
@@ -243,7 +243,7 @@ exports.partners = function() {
             'partnerId': 1,
             'partnerSlug': 'tfs',
             'partnerName': 'Thought Factory Social',
-            'partnerLogo': 'http://i.imgur.com/yqVKOCJ.jpg',
+            'partnerLogo': 'https://i.imgur.com/yqVKOCJ.jpg',
             'isActive': true,
             'partnerType': 'general'
         },
@@ -251,7 +251,7 @@ exports.partners = function() {
             'partnerId': 2,
             'partnerSlug': 'aws',
             'partnerName': 'AWS',
-            'partnerLogo': 'http://i.imgur.com/RTd44cg.jpg',
+            'partnerLogo': 'https://i.imgur.com/RTd44cg.jpg',
             'isActive': true,
             'partnerType': 'general'
         },
@@ -259,7 +259,7 @@ exports.partners = function() {
             'partnerId': 3,
             'partnerSlug': '91springboard',
             'partnerName': '91Springboard',
-            'partnerLogo': 'http://i.imgur.com/UjWUgyR.jpg',
+            'partnerLogo': 'https://i.imgur.com/UjWUgyR.jpg',
             'isActive': true,
             'partnerType': 'general'
         },
@@ -267,7 +267,7 @@ exports.partners = function() {
             'partnerId': 4,
             'partnerSlug': 'startupdelhi',
             'partnerName': 'Startup Delhi',
-            'partnerLogo': 'http://i.imgur.com/xi4BZ5B.jpg',
+            'partnerLogo': 'https://i.imgur.com/xi4BZ5B.jpg',
             'isActive': true,
             'partnerType': 'general'
         },
@@ -275,7 +275,7 @@ exports.partners = function() {
             'partnerId': 5,
             'partnerSlug': 'thub',
             'partnerName': 'THub',
-            'partnerLogo': 'http://i.imgur.com/wUDgPKR.jpg',
+            'partnerLogo': 'https://i.imgur.com/wUDgPKR.jpg',
             'isActive': true,
             'partnerType': 'general'
         },
@@ -283,7 +283,7 @@ exports.partners = function() {
             'partnerId': 6,
             'partnerSlug': 'tlabs',
             'partnerName': 'T-Labs',
-            'partnerLogo': 'http://i.imgur.com/2tPVxmS.jpg',
+            'partnerLogo': 'https://i.imgur.com/2tPVxmS.jpg',
             'isActive': false,
             'partnerType': 'general'
         },
@@ -291,7 +291,7 @@ exports.partners = function() {
             'partnerId': 7,
             'partnerSlug': 'onecoworks',
             'partnerName': 'One Co Works',
-            'partnerLogo': 'http://i.imgur.com/n2SnVn4.jpg',
+            'partnerLogo': 'https://i.imgur.com/n2SnVn4.jpg',
             'isActive': false,
             'partnerType': 'general'
         },
@@ -299,7 +299,7 @@ exports.partners = function() {
             'partnerId': 8,
             'partnerSlug': 'collabhouse',
             'partnerName': 'Collab House',
-            'partnerLogo': 'http://i.imgur.com/PZx5aHx.jpg',
+            'partnerLogo': 'https://i.imgur.com/PZx5aHx.jpg',
             'isActive': false,
             'partnerType': 'general'
         }
@@ -331,15 +331,15 @@ exports.talks = function() {
             'talkId': 1,
             'talkTitle': 'Dive into Blockchain',
             'speakerName': 'Kumar Anirudha',
-            'talkImg': 'http://i.imgur.com/kQx8HjP.png',
-            'talkUrl': 'http://anistark.github.io/talks/decentralising-with-ethereum',
+            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
+            'talkUrl': 'https://anistark.github.io/talks/decentralising-with-ethereum',
             'isActive': true
         },
         {
             'talkId': 2,
             'talkTitle': 'Intial Coin Offering',
             'speakerName': 'Akshay Agarwal',
-            'talkImg': 'http://i.imgur.com/kQx8HjP.png',
+            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8ibXBnd2lvQWVlejQ/view?usp=sharing',
             'isActive': true
         },
@@ -347,23 +347,23 @@ exports.talks = function() {
             'talkId': 3,
             'talkTitle': 'The Basics Of Ethereum',
             'speakerName': 'Advaith Mohan',
-            'talkImg': 'http://i.imgur.com/kQx8HjP.png',
-            'talkUrl': 'http://slides.com/blockchainedindia/ethereumbasics/fullscreen#/',
+            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
+            'talkUrl': 'https://slides.com/blockchainedindia/ethereumbasics/fullscreen#/',
             'isActive': true
         },
         {
             'talkId': 4,
             'talkTitle': 'Decentralising with Ethereum',
             'speakerName': 'Kumar Anirudha',
-            'talkImg': 'http://i.imgur.com/kQx8HjP.png',
-            'talkUrl': 'http://anistark.github.io/talks/decentralising-with-ethereum',
+            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
+            'talkUrl': 'https://anistark.github.io/talks/decentralising-with-ethereum',
             'isActive': true
         },
         {
             'talkId': 5,
             'talkTitle': 'Ethereum Smart Contract',
             'speakerName': 'Vinit Agrawal',
-            'talkImg': 'http://i.imgur.com/kQx8HjP.png',
+            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8iMG1sdy1YSU9IdkU/view?usp=sharing',
             'isActive': false
         },
@@ -371,7 +371,7 @@ exports.talks = function() {
             'talkId': 6,
             'talkTitle': 'Introduction to Blockchain',
             'speakerName': 'Kiran Naik Danavath',
-            'talkImg': 'http://i.imgur.com/kQx8HjP.png',
+            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8iTTZ1VXBXRWdXRms/view?usp=sharing',
             'isActive': true
         },
@@ -379,7 +379,7 @@ exports.talks = function() {
             'talkId': 7,
             'talkTitle': 'Unravel the Mystery - Blockchain',
             'speakerName': 'Vikas Singh',
-            'talkImg': 'http://i.imgur.com/kQx8HjP.png',
+            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8ic0Z5azN1bnJfWDA/view?usp=sharing',
             'isActive': true
         },
