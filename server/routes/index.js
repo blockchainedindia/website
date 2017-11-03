@@ -45,4 +45,8 @@ router.get('/talks', function(req, res, next) {
     res.render('pages/talks', { title: 'Talks | Blockchained India', talksData: talksData });
 });
 
+router.get('/404', function(req, res, next) {
+    res.render('pages/error-pages/not_found', { title: 'Blockchained India | 404 | Not Found' });
+});
+
 module.exports = router;
