@@ -401,10 +401,10 @@ exports.talks = function() {
         },
         {
             'talkId': 10,
-            'talkTitle': 'Private and Permissioned Blockchain',
+            'talkTitle': 'Types of Blockchain',
             'speakerName': 'Advaith Mohan',
             'talkImg': 'https://i.imgur.com/kQx8HjP.png',
-            'talkUrl': '#',
+            'talkUrl': 'http://slides.com/blockchainedindia/deck',
             'isActive': true
         }
     ]
