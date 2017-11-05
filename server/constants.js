@@ -365,7 +365,7 @@ exports.talks = function() {
             'speakerName': 'Vinit Agrawal',
             'talkImg': 'https://i.imgur.com/kQx8HjP.png',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8iMG1sdy1YSU9IdkU/view?usp=sharing',
-            'isActive': false
+            'isActive': true
         },
         {
             'talkId': 6,
@@ -389,6 +389,22 @@ exports.talks = function() {
             'speakerName': 'David Mazières',
             'talkImg': 'https://i.imgur.com/0shxy8s.png',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8ibk51SXBIVXUwcDQ/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 9,
+            'talkTitle': 'Bitcoin and Blockchain',
+            'speakerName': 'Kumar Anirudha',
+            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
+            'talkUrl': 'http://anistark.github.io/talks/bitcoinIntro',
+            'isActive': true
+        },
+        {
+            'talkId': 10,
+            'talkTitle': 'Private and Permissioned Blockchain',
+            'speakerName': 'Advaith Mohan',
+            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
+            'talkUrl': '#',
             'isActive': true
         }
     ]
