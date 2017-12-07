@@ -359,8 +359,8 @@ li.pricing-title {
 .testimonials {
   padding-top: 80px;
   padding-bottom: 90px;
-  background-color: #fc9733;
-  background-image: url('../img/avatar_all.png');
+  background-color: #1e222c;
+  /*background-image: url('https://i.imgur.com/QiQyTCM.png');*/
 }
 .big-icon {
   font-size: 56px;
