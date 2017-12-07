@@ -5,7 +5,7 @@
     height: 400px;
     overflow: hidden;
     z-index: -3;
-    background-color: blue;
+    background-color: black;
     background-image: url(https://i.imgur.com/kQx8HjP.png);
     background-position: top center;
     background-size: 100% 400px;
@@ -29,4 +29,66 @@
 
 .dummySpace {
     height: 2000px;
+}
+
+/* Background Glow */
+
+.header {
+  display: flex;
+  align-items: center;
+  font-family: monospace;
+  justify-content: center;
+  background-color: #1d212b;
+}
+
+.elm1 {
+  position: relative;
+  width: 30vw;
+  height: 30vw;
+  line-height: 30vw;
+  text-align: center;
+  color: #252B37;
+  /*background-color: #151823;*/
+  animation: textColor 10s ease infinite;
+}
+.elm1:after {
+  position: absolute;
+  content: "";
+  top: 5vw;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 70%;
+  width: 70%;
+  margin: 0 auto;
+  transform: scale(0.5);
+  -webkit-filter: blur(5vw);
+  -moz-filter: blur(5vw);
+  -ms-filter: blur(5vw);
+  filter: blur(5vw);
+  background: linear-gradient(270deg, #0fffc1, #7e0fff);
+  background-size: 200% 200%;
+  animation: animateGlow 10s ease infinite;
+}
+@keyframes animateGlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes textColor {
+  0% {
+    color: #7e0fff;
+  }
+  50% {
+    color: #0fffc1;
+  }
+  100% {
+    color: #7e0fff;
+  }
 }

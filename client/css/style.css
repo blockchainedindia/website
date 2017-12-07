@@ -12,13 +12,13 @@ body {
   font-family: 'Open Sans', helvetica, arial, sans-serif;
 }
 span.navy {
-  color: #1ab394;
+  color: #fc9733;
 }
 p.text-color {
   color: #676a6c;
 }
 a.navy-link {
-  color: #1ab394;
+  color: #fc9733;
   text-decoration: none;
 }
 a.navy-link:hover {
@@ -40,10 +40,10 @@ h1 {
   width: 60px;
   height: 1px;
   margin: 60px auto 0;
-  border-bottom: 2px solid #1ab394;
+  border-bottom: 2px solid #fc9733;
 }
 .navy-bg {
-  background-color: #1ab394;
+  background-color: #fc9733;
   color: #ffffff;
 }
 /* CUSTOMIZE THE NAVBAR
@@ -89,10 +89,10 @@ h1 {
 .navbar-default .navbar-nav > .active > a:hover {
   background: transparent;
   color: #fff;
-  border-top: 6px solid #1ab394;
+  border-top: 6px solid #fc9733;
 }
 .navbar-default .navbar-nav > li > a:hover {
-  color: #1ab394;
+  color: #fc9733;
 }
 .navbar-default .navbar-nav > .active > a:focus {
   background: transparent;
@@ -122,7 +122,7 @@ h1 {
   color: #676a6c;
 }
 .navbar-scroll.navbar-default .nav li a:hover {
-  color: #1ab394;
+  color: #fc9733;
 }
 .navbar-wrapper .navbar.navbar-scroll {
   padding-top: 0;
@@ -278,7 +278,7 @@ h1 {
   margin-top: 40px;
 }
 .features small {
-  color: #1ab394;
+  color: #fc9733;
 }
 .features h2 {
   font-size: 18px;
@@ -291,12 +291,12 @@ h1 {
   font-weight: 200;
 }
 .features-icon {
-  color: #1ab394;
+  color: #fc9733;
   font-size: 40px;
 }
 .navy-section {
   margin-top: 60px;
-  background: #1ab394;
+  background: #fc9733;
   color: #fff;
   padding: 20px 0;
 }
@@ -310,7 +310,7 @@ h1 {
   margin: auto;
 }
 .social-icon a {
-  background: #1ab394;
+  background: #fc9733;
   color: #fff;
   padding: 4px 8px;
   height: 28px;
@@ -341,7 +341,7 @@ h1 {
 }
 .pricing-plan .pricing-price span {
   font-weight: 700;
-  color: #1ab394;
+  color: #fc9733;
 }
 li.pricing-desc {
   font-size: 13px;
@@ -349,7 +349,7 @@ li.pricing-desc {
   padding: 20px 16px ;
 }
 li.pricing-title {
-  background: #1ab394;
+  background: #fc9733;
   color: #fff;
   padding: 10px;
   border-radius: 4px 4px 0 0;
@@ -359,14 +359,14 @@ li.pricing-title {
 .testimonials {
   padding-top: 80px;
   padding-bottom: 90px;
-  background-color: #1ab394;
+  background-color: #fc9733;
   background-image: url('../img/avatar_all.png');
 }
 .big-icon {
   font-size: 56px;
 }
 .features .big-icon {
-  color: #1ab394;
+  color: #fc9733;
 }
 .contact {
   background-image: url('../img/word_map.png');
@@ -384,8 +384,8 @@ li.pricing-title {
   color: #fff;
 }
 .btn-primary {
-  background-color: #1ab394;
-  border-color: #1ab394;
+  background-color: #fc9733;
+  border-color: #fc9733;
   color: #FFFFFF;
   font-size: 14px;
   padding: 10px 20px;
@@ -482,7 +482,7 @@ fieldset[disabled] .btn-primary.active {
     color: #676a6c;
   }
   .navbar-default .nav li a:hover {
-    color: #1ab394;
+    color: #fc9733;
   }
   .navbar-wrapper .navbar {
     padding-top: 0;
@@ -969,7 +969,7 @@ section.comments {
   font-weight: 500;
 }
 .vertical-date small {
-  color: #1ab394;
+  color: #fc9733;
   font-weight: 400;
 }
 .vertical-timeline-content::before {
