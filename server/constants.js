@@ -406,6 +406,14 @@ exports.talks = function() {
             'talkImg': 'https://i.imgur.com/kQx8HjP.png',
             'talkUrl': 'http://slides.com/blockchainedindia/deck',
             'isActive': true
+        },
+        {
+            'talkId': 11,
+            'talkTitle': 'InterPlanterary DataBase',
+            'speakerName': 'Nilesh Trivedi',
+            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
+            'talkUrl': 'https://drive.google.com/file/d/1mDprxEF0cnaFXwQw0vYbthPy3khxOTcC/view',
+            'isActive': true
         }
     ]
 };
