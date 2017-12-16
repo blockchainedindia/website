@@ -409,6 +409,14 @@ exports.talks = function() {
         },
         {
             'talkId': 11,
+            'talkTitle': 'Applications of Blockchain',
+            'speakerName': 'Shivhari Shankar',
+            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
+            'talkUrl': 'https://drive.google.com/file/d/1xlQ2oHeNhURSemYLqhDCMl0KLpBGqGdV/view',
+            'isActive': true
+        },
+        {
+            'talkId': 12,
             'talkTitle': 'InterPlanterary DataBase',
             'speakerName': 'Nilesh Trivedi',
             'talkImg': 'https://i.imgur.com/kQx8HjP.png',
