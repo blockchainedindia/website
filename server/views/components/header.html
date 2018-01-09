@@ -1,422 +1,76 @@
-<header class="header">
-    <div class="elm1"></div>
-</header>
+<div class="header">
+    <a href="#" class="logo">Playphone Developers</a>
+    <!-- <a href="#" class="button">Create Account</a> -->
+    <!-- <a href="#" class="login">Login</a> -->
+    <a href="#reach" class="header-item">Reach</a>
+    <!-- <a href="#" class="header-item">Initiatives</a> -->
+    <a href="#team" class="header-item">Team</a>
+    <a href="#partner" class="header-item">Partners</a>
+    <!-- <a href="#footer" class="header-item">Contact</a> -->
+</div>
 
-<!-- Slider Begin -->
-<style>
-    .slider {
-        -webkit-transition: all 0.5s ease-out;
-        transition: all 0.5s ease-out;
-        position: relative;
-        display: block;
-        max-width: 1600px;
-        margin: 0 auto;
-    }
+<div class="slider slider-1">
+    <img class="ratio" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7" />
 
-    .slider label, .slider .active, .slider img {
-        -moz-user-select: none;
-        -webkit-user-select: none;
-    }
+    <input class="slide" type="radio" name="slider-1" id="s-1-1" /><label for="s-1-1"></label>
+    <div>
+        <img src="http://www.antimoneylaundering.lawyer/wp-content/uploads/2017/04/Blockchain-AML-1080x664.jpg" />
+        <div class="content">
+            <h3>Blockchained India</h3>
+            <p>An open community for the blockchain enthusiast in you.</p>
+            <a href="#" class="button button-blue">Get Started</a>
+        </div>
+    </div>
 
-    .slider label, .slider a {
-        color: #888888;
-        cursor: pointer;
-        text-decoration: none;
-    }
+    <input class="slide" type="radio" name="slider-1" id="s-1-2" /><label for="s-1-2"></label>
+    <div>
+        <img src="https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2016/blockchainis.jpg" />
+        <div class="content">
+            <h3>Some Title 2</h3>
+            <p>Get it going!</p>
+            <a href="#" class="button button-orange">Read More</a>
+        </div>
+    </div>
 
-    .slider label:hover, .slider a:hover {
-        color: #e80707;
-    }
-
-    .slider input {
-        display: none;
-    }
-
-    .slider .slide1:checked ~ .slides .inner {
-        margin-left: 0;
-    }
-
-    .slider .slide2:checked ~ .slides .inner {
-        margin-left: -100%;
-    }
-
-    .slider .slide3:checked ~ .slides .inner {
-        margin-left: -200%;
-    }
-
-    .slider .slide4:checked ~ .slides .inner {
-        margin-left: -300%;
-    }
-
-    .slider .slide5:checked ~ .slides .inner {
-        margin-left: -400%;
-    }
-
-    .slider .slide1:checked ~ .controls label:nth-child(2), .slider .slide2:not(:last-of-type):checked ~ .controls label:nth-child(3), .slider .slide2:last-of-type:checked ~ .controls label:first-child, .slider .slide3:not(:last-of-type):checked ~ .controls label:nth-child(4), .slider .slide3:last-of-type:checked ~ .controls label:first-child, .slider .slide4:not(:last-of-type):checked ~ .controls label:nth-child(5), .slider .slide4:last-of-type:checked ~ .controls label:first-child, .slider .slide5:checked ~ .controls label:first-child {
-        float: right;
-        margin: 0 2% 0 0;
-        display: block;
-    }
-
-    .slider .slide1:checked ~ .controls label:nth-child(2)::after, .slider .slide2:not(:last-of-type):checked ~ .controls label:nth-child(3)::after, .slider .slide2:last-of-type:checked ~ .controls label:first-child::after, .slider .slide3:not(:last-of-type):checked ~ .controls label:nth-child(4)::after, .slider .slide3:last-of-type:checked ~ .controls label:first-child::after, .slider .slide4:not(:last-of-type):checked ~ .controls label:nth-child(5)::after, .slider .slide4:last-of-type:checked ~ .controls label:first-child::after, .slider .slide5:checked ~ .controls label:first-child::after {
-        content: "\f105";
-        right: 0;
-    }
-
-    @media (max-width: 767px) {
-        .slider .slide1:checked ~ .controls label:nth-child(2), .slider .slide2:not(:last-of-type):checked ~ .controls label:nth-child(3), .slider .slide2:last-of-type:checked ~ .controls label:first-child, .slider .slide3:not(:last-of-type):checked ~ .controls label:nth-child(4), .slider .slide3:last-of-type:checked ~ .controls label:first-child, .slider .slide4:not(:last-of-type):checked ~ .controls label:nth-child(5), .slider .slide4:last-of-type:checked ~ .controls label:first-child, .slider .slide5:checked ~ .controls label:first-child {
-            margin: 0 5px 0 0;
-        }
-    }
-    .slider .slide1:checked ~ .controls label:last-child, .slider .slide2:checked ~ .controls label:nth-child(1), .slider .slide3:checked ~ .controls label:nth-child(2), .slider .slide4:checked ~ .controls label:nth-child(3), .slider .slide5:checked ~ .controls label:nth-child(4) {
-        float: left;
-        margin: 0 0 0 2%;
-        display: block;
-    }
-
-    .slider .slide1:checked ~ .controls label:last-child::after, .slider .slide2:checked ~ .controls label:nth-child(1)::after, .slider .slide3:checked ~ .controls label:nth-child(2)::after, .slider .slide4:checked ~ .controls label:nth-child(3)::after, .slider .slide5:checked ~ .controls label:nth-child(4)::after {
-        content: "\f104";
-        left: 0;
-    }
-
-    @media (max-width: 767px) {
-        .slider .slide1:checked ~ .controls label:last-child, .slider .slide2:checked ~ .controls label:nth-child(1), .slider .slide3:checked ~ .controls label:nth-child(2), .slider .slide4:checked ~ .controls label:nth-child(3), .slider .slide5:checked ~ .controls label:nth-child(4) {
-            margin: 0 0 0 5px;
-        }
-    }
-    .slider .slide1:checked ~ .active label:nth-child(1), .slider .slide2:checked ~ .active label:nth-child(2), .slider .slide3:checked ~ .active label:nth-child(3), .slider .slide4:checked ~ .active label:nth-child(4), .slider .slide5:checked ~ .active label:nth-child(5) {
-        background: #e80707;
-        border-color: #888888 !important;
-    }
-
-    .slider .slide1:checked ~ .slides .hero:nth-child(1) .content, .slider .slide2:checked ~ .slides .hero:nth-child(2) .content, .slider .slide3:checked ~ .slides .hero:nth-child(3) .content, .slider .slide4:checked ~ .slides .hero:nth-child(4) .content, .slider .slide5:checked ~ .slides .hero:nth-child(5) .content {
-        opacity: 1;
-        -webkit-transition: all 1s ease-out 0.6s;
-        transition: all 1s ease-out 0.6s;
-    }
-
-    .slider .slides .overflow {
-        width: 100%;
-        overflow: hidden;
-    }
-
-    .slider .slides .overflow .inner {
-        -webkit-transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1);
-        transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1);
-        -webkit-transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
-        transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
-        width: 500%;
-    }
-
-    .slider .slides .overflow .inner .hero {
-        width: 20%;
-        float: left;
-        margin: 0;
-    }
-
-    .slider .slides .overflow .inner .hero .content {
-        opacity: 0;
-    }
-
-    @media (max-width: 767px) {
-        .slider .slides .overflow .inner .hero .content h1 {
-            margin-bottom: 15px;
+    <input class="slide" type="radio" name="slider-1" id="s-1-3" checked /><label for="s-1-3"></label>
+    <div>
+        <img src="https://www.digimarc.com/public_images/blockchain-1500x600.jpg" />
+        <div class="content">
+            <h3>Some Title 3</h3>
+            <p>Get it going!</p>
+            <a href="#" class="button button">Subscribe</a>
+        </div>
+    </div>
+    <style type="text/css">
+        #landing .slider-1 img.ratio {
+            padding: 0 33%;
         }
 
-        .slider .slides .overflow .inner .hero .content p {
-            display: none;
-        }
-    }
-    .slider .controls {
-        position: absolute;
-        width: 100%;
-        height: 50px;
-        top: 50%;
-        -webkit-transform: translate(0, -50%);
-        transform: translate(0, -50%);
-    }
-
-    .slider .controls label {
-        position: relative;
-        display: none;
-        width: 26px;
-        height: 50px;
-        -webkit-transition: opacity 0.5s ease-out;
-        transition: opacity 0.5s ease-out;
-    }
-
-    .slider .controls label::after {
-        position: absolute;
-        display: inline-block;
-        font-family: "FontAwesome";
-        font-size: 50px;
-        font-variant: normal;
-        font-weight: 400;
-        line-height: 1em;
-        text-transform: none;
-        speak: none;
-        color: #ffffff;
-        text-shadow: 0px 0px 1px rgba(23, 23, 23, 0.75);
-        opacity: 0.5;
-        -webkit-transition: opacity 0.5s ease-out;
-        transition: opacity 0.5s ease-out;
-    }
-
-    .slider .controls label:hover::after {
-        opacity: 1;
-    }
-
-    @media (max-width: 991px) {
-        .slider .controls label {
-            -webkit-transform: scale(0.8);
-            transform: scale(0.8);
-        }
-    }
-    @media (max-width: 767px) {
-        .slider .controls label {
-            -webkit-transform: scale(0.6);
-            transform: scale(0.6);
-        }
-    }
-    .slider .active {
-        position: absolute;
-        left: 50%;
-        bottom: 2%;
-        -webkit-transform: translate(-50%, 0);
-        transform: translate(-50%, 0);
-        text-align: center;
-    }
-
-    .slider .active label {
-        border-radius: 5px;
-        display: inline-block;
-        width: 10px;
-        height: 10px;
-        margin-left: 20px;
-        background: #ffffff;
-        box-shadow: 0px 0px 1px 0 rgba(23, 23, 23, 0.75);
-    }
-
-    .slider .active label:hover {
-        background: #e80707;
-        border-color: #e80707;
-    }
-
-    .slider .active label:first-of-type {
-        margin-left: 0;
-    }
-
-    .slider .control, .slider .slides, .slider .active, .slider .active label, .slider .slides .overflow .inner .hero .content {
-        -webkit-transition: all 0.5s ease-out;
-        transition: all 0.5s ease-out;
-    }
-
-    .hero {
-        position: relative;
-        max-width: 1600px;
-        height: 25rem;
-        padding: 0;
-        margin: 0 auto;
-        border-radius: 0;
-        background-repeat: no-repeat !important;
-        background-size: cover !important;
-    }
-
-    .hero .container .row {
-        height: 25rem;
-        position: relative;
-    }
-
-    .hero .content {
-        position: absolute;
-        top: 50%;
-        -webkit-transform: translate(0, -50%);
-        transform: translate(0, -50%);
-    }
-
-    @media (max-width: 767px) {
-        .hero .content {
-            text-align: center;
-        }
-    }
-    @media (max-width: 991px) {
-        .hero .content h1 {
-            margin-bottom: 15px;
+        #landing .slider-1 .content {
+            max-width: 33%;
+            margin: 5% 0 0 18%;
         }
 
-        .hero .content p {
-            display: none;
+        #landing .slider-1 .content h3 {
+            color: #fff;
+            font-size: 2.125em;
+            font-weight: normal;
+            margin: 0 0 4%;
         }
-    }
-    .hero .content.dark h1, .hero .content.dark p {
-        color: #171717;
-    }
 
-    .hero .content.dark .btn-secondary {
-        color: #171717;
-        border-color: #171717;
-    }
-
-    .hero .content.dark .btn-secondary::after {
-        color: #171717 !important;
-    }
-
-    .hero .content.dark .btn-secondary:hover {
-        background: #171717 !important;
-        color: #ffffff !important;
-        border-color: #171717 !important;
-    }
-
-    .hero .content.dark .btn-secondary:hover::after {
-        color: #ffffff !important;
-    }
-
-    .hero .content.light h1, .hero .content.light p {
-        color: #ffffff;
-    }
-
-    .hero .content.light .btn-secondary:hover {
-        background: #ffffff !important;
-        color: #e80707 !important;
-        border-color: #ffffff !important;
-    }
-
-    .hero .content.light .btn-secondary:hover::after {
-        color: #e80707 !important;
-    }
-
-    .hero .content.left {
-        left: 95px;
-    }
-
-    @media (max-width: 991px) {
-        .hero .content.left {
-            left: 30px;
+        #landing .slider-1 .content p {
+            color: #fff;
+            font-size: 1.1em;
+            font-weight: normal;
         }
-    }
-    @media (max-width: 767px) {
-        .hero .content.left {
-            left: 50%;
-            -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+
+        #landing .slider-1 .button {
+            position: absolute;
+            bottom: 17%;
+            min-width: 12.5em;
+            font-size: .95em;
+            font-weight: normal;
+            border-width: .14em;
         }
-    }
-    .hero .content.center {
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
-    }
-
-    .hero .content.right {
-        right: 95px;
-    }
-
-    @media (max-width: 991px) {
-        .hero .content.right {
-            right: 30px;
-        }
-    }
-    @media (max-width: 767px) {
-        .hero .content.right {
-            left: 50%;
-            -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-        }
-    }
-    .hero .content h1 {
-        margin: 0;
-        text-transform: uppercase;
-    }
-
-    @media (max-width: 575px) {
-        .hero .content h1 {
-            font-size: 40px;
-        }
-    }
-    .hero .content p {
-        font-size: 18px;
-    }
-
-    .hero .content a.btn {
-        position: relative;
-        padding-right: 40px;
-        color: #ffffff;
-        -webkit-transition: all .2s ease-in;
-        transition: all .2s ease-in;
-    }
-
-    .hero .content a.btn::after {
-        position: absolute;
-        top: 14px;
-        right: 16px;
-        font-family: "FontAwesome";
-        font-size: 15px;
-        font-variant: normal;
-        font-weight: 400;
-        line-height: 1em;
-        text-transform: none;
-        content: "\f105";
-        speak: none;
-        color: #ffffff;
-        -webkit-transition: all .2s ease-in;
-        transition: all .2s ease-in;
-    }
-
-    .hero .content a.btn:hover {
-        background: #ccc;
-        color: #ffffff;
-        border-color: #ccc;
-    }
-
-    .hero .content a.btn:hover::after {
-        color: #ffffff;
-    }
-
-    .hero .content a.btn.btn-primary:hover {
-        background: #f81111;
-        border-color: #f81111;
-    }
-</style>
-
-<!--<section class="slider">-->
-    <!--<input checked="checked" name="slider" class="slide1" id="slide1" type="radio">-->
-    <!--<input name="slider" class="slide2" id="slide2" type="radio">-->
-    <!--<div class="slides">-->
-        <!--<div class="overflow">-->
-            <!--<div class="inner clearfix">-->
-                <!--<div class="jumbotron hero" style="background: url('http://i.imgur.com/or2GIjb.png') center center;">-->
-                    <!--<div class="container">-->
-                        <!--<div class="row">-->
-                            <!--<div class="content light center col-xs-10">-->
-                                <!--<h1>TLAB Leap Fintech</h1>-->
-                                <!--<p>Demystifying the Future of Fintech | 8th Sep 2017 | The Leela Palace Bengaluru</p>-->
-                                <!--<a href="http://tlabs.in/fintech" class="btn btn-lg btn-primary">Know More</a>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="jumbotron hero" style="background: url('http://i.imgur.com/or2GIjb.png') center center;">-->
-                    <!--<div class="container">-->
-                        <!--<div class="row">-->
-                            <!--<div class="content light center col-xs-10">-->
-                                <!--<h1>INDIA BLOCKCHAIN WEEK</h1>-->
-                                <!--<p>22-26 SEPTEMBER 2017 | The Leela Hotel, Mumbai, India. Register with coupon code "BLOCKCHAINED INDIA" to avail special discount.</p>-->
-                                <!--<a href="https://www.indiablockchainweek.com" class="btn btn-lg btn-primary">Know More</a>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-    <!--<div class="controls">-->
-        <!--<label for="slide1"></label>-->
-        <!--<label for="slide2"></label>-->
-    <!--</div>-->
-    <!--<div class="active">-->
-        <!--<label for="slide1"></label>-->
-        <!--<label for="slide2"></label>-->
-    <!--</div>-->
-<!--</section>-->
-<!-- Slider End -->
+    </style>
+</div>
