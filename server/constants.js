@@ -176,6 +176,17 @@ exports.teamMembers = function() {
                 'linkedin': 'https://www.linkedin.com/in/kashyapk'
             },
             'isActive': true
+        },
+        {
+            'memberId': 7,
+            'memberHandle': 'vikas',
+            'preName': '',
+            'name': 'Vikas',
+            'postName': 'Singh',
+            'picture': 'https://i.imgur.com/o9MPOKN.png',
+            'detail': 'Blockchain Dev',
+            'socialHandles': {},
+            'isActive': true
         }
     ]
 };
