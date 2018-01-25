@@ -183,9 +183,12 @@ exports.teamMembers = function() {
             'preName': '',
             'name': 'Vikas',
             'postName': 'Singh',
-            'picture': 'https://i.imgur.com/o9MPOKN.png',
-            'detail': 'Blockchain Dev',
-            'socialHandles': {},
+            'picture': 'http://www.freestencilgallery.com/wp-content/uploads/2014/07/Thor-Stencil-thumb.jpg',
+            'detail': 'Ethreum blockchain developer and crypto believer.',
+            'socialHandles': {
+                'linkedin': 'https://www.linkedin.com/in/vikas-singh-8299a315',
+                'github': 'https://github.com/vikas1188'
+            },
             'isActive': true
         }
     ]
