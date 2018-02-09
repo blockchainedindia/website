@@ -37,3 +37,13 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+
+$(document).ready(function() {
+    $('#calendar').fullCalendar({
+        googleCalendarApiKey: 'AIzaSyBNznyn08Hp7R7V679waZ6XNxw30N-jaQk',
+        events: {
+            googleCalendarId: 'es8ftbmdvt487j6hp6btdti2j8@group.calendar.google.com'
+        }
+    });
+});

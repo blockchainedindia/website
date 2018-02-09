@@ -11,7 +11,7 @@ body {
 #landing *,
 #landing :before,
 #landing :after {
-    position: relative;
+    /*position: relative;*/
     /*margin: 0;*/
     padding: 0;
     box-sizing: border-box;
@@ -417,6 +417,7 @@ body {
 }
 
 #landing .slider>input.slide+label {
+    position: relative;
     display: inline-block;
     width: 3.32em;
     height: 3.125em;
