@@ -43,7 +43,7 @@ $(document).ready(function() {
     $('#calendar').fullCalendar({
         googleCalendarApiKey: 'AIzaSyBNznyn08Hp7R7V679waZ6XNxw30N-jaQk',
         events: {
-            googleCalendarId: 'es8ftbmdvt487j6hp6btdti2j8@group.calendar.google.com'
+            googleCalendarId: 'uao26r43e4nv5hdrhtfr11e3s0@group.calendar.google.com'
         }
     });
 });
