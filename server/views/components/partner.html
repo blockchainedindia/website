@@ -1,0 +1,78 @@
+<style>
+    @import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+    .partner-slider-img {
+        display: inline-block;
+        /*width: 200px;*/
+        height: 6rem;
+    }
+
+    .carousel {
+        width: 90%;
+        height: auto;
+        overflow: hidden;
+        padding: 2rem !important;
+        margin: 0 auto;
+    }
+
+    .holder {
+        -webkit-animation: carousel 50s linear infinite;
+        animation: carousel 50s linear infinite;
+        white-space: nowrap;
+        will-change: transform;
+    }
+
+    .holder:hover {
+        -webkit-animation-play-state: paused;
+        animation-play-state: paused;
+    }
+
+    @-webkit-keyframes carousel {
+        0% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+        }
+        50% {
+            -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+        }
+        100% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes carousel {
+        0% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+        }
+        50% {
+            -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+        }
+        100% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+        }
+    }
+</style>
+
+<div class="component" id="partner">
+
+    <h1>Our Partners</h1>
+
+    <div class="carousel">
+        <div class="holder">
+            <img class="partner-slider-img" src="https://i.imgur.com/yqVKOCJ.jpg" alt="" />
+            <img class="partner-slider-img" src="https://i.imgur.com/RTd44cg.jpg" alt="" />
+            <img class="partner-slider-img" src="https://i.imgur.com/UjWUgyR.jpg" alt="" />
+            <img class="partner-slider-img" src="https://i.imgur.com/xi4BZ5B.jpg" alt="" />
+            <img class="partner-slider-img" src="https://i.imgur.com/wUDgPKR.jpg" alt="" />
+            <img class="partner-slider-img" src="https://i.imgur.com/2tPVxmS.jpg" alt="" />
+            <img class="partner-slider-img" src="https://i.imgur.com/n2SnVn4.jpg" alt="" />
+            <img class="partner-slider-img" src="https://i.imgur.com/PZx5aHx.jpg" alt="" />
+        </div>
+    </div>
+
+</div>
