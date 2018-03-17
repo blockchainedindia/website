@@ -88,7 +88,7 @@ body {
     top: 0;
     height: 4.0625em;
     z-index: 100;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(31, 31, 31, 0.9);
     padding: .9em 1.25em;
     line-height: 2em;
     text-align: right;
@@ -111,7 +111,7 @@ body {
     white-space: nowrap;
     color: transparent;
     overflow: hidden;
-    background: url("https://i.imgur.com/3aUT4Yr.png") no-repeat center left;
+    background: url("https://i.imgur.com/KPTNONW.png") no-repeat center left;
     background-size: contain;
 }
 
