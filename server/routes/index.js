@@ -18,7 +18,11 @@ router.get('/', function(req, res, next) {
     res.render('pages/home', { title: 'Blockchained India' });
 });
 
-router.get('/404', function(req, res, next) {
+router.get('/gallery', function(req, res, next) {
+    res.render('pages/gallery', { title: 'Blockchained India Gallery' });
+});
+
+router.get('*', function(req, res, next) {
     res.render('pages/error-pages/not_found', { title: 'Blockchained India | 404 | Not Found' });
 });
 
