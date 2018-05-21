@@ -1,0 +1,147 @@
+{% extends '../layout.html' %} {% block title %}{% endblock %} {% block content %}
+
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,300,200);
+    @import url(https://fonts.googleapis.com/css?family=Croissant+One);
+    @import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+    .talks-pageTitle {
+    	display: block;
+    	margin: 0 0 0.2em 0;
+    	font-size: 2.2em;
+    	line-height: 1em;
+    	color: #3CA0D0;
+    }
+
+    .talks-roundedCorners {
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+    .talks-boxShadow {
+        -webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+        box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .talks-wrapper {
+        width: 600px;
+        margin: 20px auto;
+    }
+
+    .talks-main {
+        width: 96%;
+        padding: 2% 2% 5% 2%;
+        margin: 5% 0;
+        background: none;
+        border-bottom: solid 1px #ccc;
+	}
+
+    .talks-top {
+        width: 100%;
+        min-height: 300px;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    /* GALLERY
+    ===================================================== */
+
+    .talks-galleryItem {
+        display: inline-block;
+        ;
+        position: relative;
+        width: 250px;
+        height: 250px;
+        padding: 0;
+        margin: 0 20px;
+    }
+
+    .talks-galleryItem img {
+        width: 100%;
+        height: 100%;
+        border: solid 10px #fff;
+    }
+
+    .talks-caption {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+        width: 250px;
+        height: 250px;
+        z-index: 10;
+    }
+
+    .talks-caption::before {
+        content: attr(data-title);
+        position: absolute;
+        top: -50%;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        padding: 10px;
+        font-family: 'Croissant One', cursive;
+        font-size: 1.8em;
+        font-weight: 600;
+        line-height: 1.4em;
+        color: #086FA1;
+        background: #fff;
+        overflow: hidden;
+
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .talks-caption::after {
+        content: attr(data-description);
+        position: absolute;
+        bottom: -50%;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        padding: 10px;
+        font-family: 'Poiret One', cursive;
+        font-size: .9em;
+        font-weight: 400;
+        line-height: 1.4em;
+        color: #fff;
+        background: #222;
+        overflow: hidden;
+
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .talks-caption:hover::before {
+        top: 0;
+    }
+
+    .talks-caption:hover::after {
+        bottom: 0;
+    }
+</style>
+
+<div class="talks-wrapper talks-roundedCorners">
+	<div class="talks-main">
+		<h1 class="talks-pageTitle">Talks</h1>
+	</div>
+</div>
+<ul class="talks-top">
+    <!-- Loop -->
+    {% for talksItem in talksData %}
+        <li class="talks-galleryItem">
+            <a class="talks-caption" href="{{ talksItem.talkUrl }}" data-title="{{ talksItem.talkTitle }}" data-description="{{ talksItem.speakerName }}"><img src="{{ talksItem.talkImg }}" alt="{{ talksItem.talkTitle }}"></a>
+        </li>
+    {% endfor %}
+    <!-- End -->
+</ul>
+
+<a href="https://blockchainedindia.github.io/resources/" class="button button">More Resources</a>
+<br /><br />
+
+{% endblock %}

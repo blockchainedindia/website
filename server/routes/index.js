@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var models = require('../models/index');
 var helpers = require('../helpers');
+var constants = require('../constants');
 
 // Routes
 
@@ -20,6 +21,12 @@ router.get('/', function(req, res, next) {
 
 router.get('/gallery', function(req, res, next) {
     res.render('pages/gallery', { title: 'Blockchained India Gallery' });
+});
+
+router.get('/talks', function(req, res, next) {
+    let talksData = constants.talks();
+    console.log('talksData:', talksData);
+    res.render('pages/talks', { title: 'Blockchained India Talks', talksData: talksData });
 });
 
 router.get('*', function(req, res, next) {

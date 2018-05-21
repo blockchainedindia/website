@@ -436,6 +436,22 @@ exports.talks = function() {
             'talkImg': 'https://i.imgur.com/kQx8HjP.png',
             'talkUrl': 'https://drive.google.com/file/d/1mDprxEF0cnaFXwQw0vYbthPy3khxOTcC/view',
             'isActive': true
+        },
+        {
+            'talkId': 13,
+            'talkTitle': 'What To Focus On While Building A Blockchain Start-Up',
+            'speakerName': 'Naman Chaturvedi',
+            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
+            'talkUrl': 'https://docs.google.com/presentation/d/1AX-vYcg0ff8oArqv28lFe4YgnevvzmdX7U7YPB4BIGk/edit#slide=id.p1',
+            'isActive': true
+        },
+        {
+            'talkId': 14,
+            'talkTitle': 'Essential ERCs',
+            'speakerName': 'Mayur Relekar',
+            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
+            'talkUrl': 'https://docs.google.com/presentation/d/1vg-4TQPqDOMUMt8cKIFDZzHS4JepxNpzS9yMzra8sSU/edit?ts=5b000fe8#slide=id.g3ab0fc39cf_0_70',
+            'isActive': true
         }
     ]
 };
