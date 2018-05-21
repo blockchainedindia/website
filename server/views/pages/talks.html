@@ -135,7 +135,7 @@
     <!-- Loop -->
     {% for talksItem in talksData %}
         <li class="talks-galleryItem">
-            <a class="talks-caption" href="{{ talksItem.talkUrl }}" data-title="{{ talksItem.talkTitle }}" data-description="{{ talksItem.speakerName }}"><img src="{{ talksItem.talkImg }}" alt="{{ talksItem.talkTitle }}"></a>
+            <a class="talks-caption" href="{{ talksItem.talkUrl }}" data-title="{{ talksItem.speakerName }}" data-description="{{ talksItem.talkTitle }}"><img src="{{ talksItem.talkImg }}" alt="{{ talksItem.talkTitle }}"></a>
         </li>
     {% endfor %}
     <!-- End -->

@@ -345,7 +345,7 @@ exports.talks = function() {
             'talkId': 1,
             'talkTitle': 'Dive into Blockchain',
             'speakerName': 'Kumar Anirudha',
-            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://anistark.github.io/talks/decentralising-with-ethereum',
             'isActive': true
         },
@@ -353,7 +353,7 @@ exports.talks = function() {
             'talkId': 2,
             'talkTitle': 'Intial Coin Offering',
             'speakerName': 'Akshay Agarwal',
-            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8ibXBnd2lvQWVlejQ/view?usp=sharing',
             'isActive': true
         },
@@ -361,7 +361,7 @@ exports.talks = function() {
             'talkId': 3,
             'talkTitle': 'The Basics Of Ethereum',
             'speakerName': 'Advaith Mohan',
-            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://slides.com/blockchainedindia/ethereumbasics/fullscreen#/',
             'isActive': true
         },
@@ -369,7 +369,7 @@ exports.talks = function() {
             'talkId': 4,
             'talkTitle': 'Decentralising with Ethereum',
             'speakerName': 'Kumar Anirudha',
-            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://anistark.github.io/talks/decentralising-with-ethereum',
             'isActive': true
         },
@@ -377,7 +377,7 @@ exports.talks = function() {
             'talkId': 5,
             'talkTitle': 'Ethereum Smart Contract',
             'speakerName': 'Vinit Agrawal',
-            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8iMG1sdy1YSU9IdkU/view?usp=sharing',
             'isActive': true
         },
@@ -385,7 +385,7 @@ exports.talks = function() {
             'talkId': 6,
             'talkTitle': 'Introduction to Blockchain',
             'speakerName': 'Kiran Naik Danavath',
-            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8iTTZ1VXBXRWdXRms/view?usp=sharing',
             'isActive': true
         },
@@ -393,7 +393,7 @@ exports.talks = function() {
             'talkId': 7,
             'talkTitle': 'Unravel the Mystery - Blockchain',
             'speakerName': 'Vikas Singh',
-            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8ic0Z5azN1bnJfWDA/view?usp=sharing',
             'isActive': true
         },
@@ -409,7 +409,7 @@ exports.talks = function() {
             'talkId': 9,
             'talkTitle': 'Bitcoin and Blockchain',
             'speakerName': 'Kumar Anirudha',
-            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'http://anistark.github.io/talks/bitcoinIntro',
             'isActive': true
         },
@@ -417,7 +417,7 @@ exports.talks = function() {
             'talkId': 10,
             'talkTitle': 'Types of Blockchain',
             'speakerName': 'Advaith Mohan',
-            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'http://slides.com/blockchainedindia/deck',
             'isActive': true
         },
@@ -425,7 +425,7 @@ exports.talks = function() {
             'talkId': 11,
             'talkTitle': 'Applications of Blockchain',
             'speakerName': 'Shivhari Shankar',
-            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://drive.google.com/file/d/1xlQ2oHeNhURSemYLqhDCMl0KLpBGqGdV/view',
             'isActive': true
         },
@@ -433,7 +433,7 @@ exports.talks = function() {
             'talkId': 12,
             'talkTitle': 'InterPlanterary DataBase',
             'speakerName': 'Nilesh Trivedi',
-            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://drive.google.com/file/d/1mDprxEF0cnaFXwQw0vYbthPy3khxOTcC/view',
             'isActive': true
         },
@@ -441,7 +441,7 @@ exports.talks = function() {
             'talkId': 13,
             'talkTitle': 'What To Focus On While Building A Blockchain Start-Up',
             'speakerName': 'Naman Chaturvedi',
-            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://docs.google.com/presentation/d/1AX-vYcg0ff8oArqv28lFe4YgnevvzmdX7U7YPB4BIGk/edit#slide=id.p1',
             'isActive': true
         },
@@ -449,7 +449,7 @@ exports.talks = function() {
             'talkId': 14,
             'talkTitle': 'Essential ERCs',
             'speakerName': 'Mayur Relekar',
-            'talkImg': 'https://i.imgur.com/kQx8HjP.png',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://docs.google.com/presentation/d/1vg-4TQPqDOMUMt8cKIFDZzHS4JepxNpzS9yMzra8sSU/edit?ts=5b000fe8#slide=id.g3ab0fc39cf_0_70',
             'isActive': true
         }
