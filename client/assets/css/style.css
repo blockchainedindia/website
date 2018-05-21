@@ -494,3 +494,7 @@ body {
     width: 100%;
     opacity: 1;
 }
+
+.header-background {
+    object-fit: cover;
+}
