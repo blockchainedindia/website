@@ -25,7 +25,7 @@ router.get('/gallery', function(req, res, next) {
 
 router.get('/talks', function(req, res, next) {
     let talksData = constants.talks();
-    console.log('talksData:', talksData);
+    // console.log('talksData:', talksData);
     res.render('pages/talks', { title: 'Blockchained India Talks', talksData: talksData });
 });
 
