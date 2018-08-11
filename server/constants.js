@@ -457,7 +457,7 @@ exports.talks = function() {
             'talkId': 15,
             'talkTitle': 'Introduction to Tangle',
             'speakerName': 'Kumar Anirudha',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://i.imgur.com/CsIYoHi.png',
             'talkUrl': 'http://anistark.github.io/talks/tangleIntro/',
             'isActive': true
         }
