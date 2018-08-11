@@ -417,7 +417,7 @@ exports.talks = function() {
             'talkId': 10,
             'talkTitle': 'Types of Blockchain',
             'speakerName': 'Advaith Mohan',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://blockchainsemantics.s3.amazonaws.com/media/system/blog/TYPES-OF-BLOCKCHAIN.jpg',
             'talkUrl': 'http://slides.com/blockchainedindia/deck',
             'isActive': true
         },
@@ -425,7 +425,7 @@ exports.talks = function() {
             'talkId': 11,
             'talkTitle': 'Applications of Blockchain',
             'speakerName': 'Shivhari Shankar',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://3mgj4y44nc15fnv8d303d8zb-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/What-is-a-Decentralized-Application-696x449.jpg',
             'talkUrl': 'https://drive.google.com/file/d/1xlQ2oHeNhURSemYLqhDCMl0KLpBGqGdV/view',
             'isActive': true
         },
@@ -449,7 +449,7 @@ exports.talks = function() {
             'talkId': 14,
             'talkTitle': 'Essential ERCs',
             'speakerName': 'Mayur Relekar',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://cdn-images-1.medium.com/max/1024/1*di6g2aso-keEx60GOdy5kQ.jpeg',
             'talkUrl': 'https://docs.google.com/presentation/d/1vg-4TQPqDOMUMt8cKIFDZzHS4JepxNpzS9yMzra8sSU/edit?ts=5b000fe8#slide=id.g3ab0fc39cf_0_70',
             'isActive': true
         },
