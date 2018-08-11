@@ -352,7 +352,7 @@ exports.talks = function() {
         {
             'talkId': 2,
             'talkTitle': 'Intial Coin Offering',
-            'speakerName': 'Akshay Agarwal',
+            'speakerName': 'Akshay Aggarwal',
             'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8ibXBnd2lvQWVlejQ/view?usp=sharing',
             'isActive': true
@@ -451,6 +451,14 @@ exports.talks = function() {
             'speakerName': 'Mayur Relekar',
             'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://docs.google.com/presentation/d/1vg-4TQPqDOMUMt8cKIFDZzHS4JepxNpzS9yMzra8sSU/edit?ts=5b000fe8#slide=id.g3ab0fc39cf_0_70',
+            'isActive': true
+        },
+        {
+            'talkId': 15,
+            'talkTitle': 'Introduction to Tangle',
+            'speakerName': 'Kumar Anirudha',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'http://anistark.github.io/talks/tangleIntro/',
             'isActive': true
         }
     ]
