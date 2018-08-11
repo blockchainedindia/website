@@ -393,7 +393,7 @@ exports.talks = function() {
             'talkId': 7,
             'talkTitle': 'Unravel the Mystery - Blockchain',
             'speakerName': 'Vikas Singh',
-            'talkImg': 'https://073bddbe7aa062defd37fde3-cwzdvdpfea.netdna-ssl.com/wp-content/uploads/2017/05/blockchain-mts-2017-1000x640.jpg',
+            'talkImg': 'http://www.financnitrgi.com/wp-content/uploads/biometric_blockchain_bitcoin.jpg',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8ic0Z5azN1bnJfWDA/view?usp=sharing',
             'isActive': true
         },
