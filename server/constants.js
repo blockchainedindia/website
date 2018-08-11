@@ -345,7 +345,7 @@ exports.talks = function() {
             'talkId': 1,
             'talkTitle': 'Dive into Blockchain',
             'speakerName': 'Kumar Anirudha',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://www.mhlnews.com/sites/mhlnews.com/files/styles/article_featured_standard/public/blockchain_0.gif?itok=PyXp3cWH',
             'talkUrl': 'https://anistark.github.io/talks/decentralising-with-ethereum',
             'isActive': true
         },
@@ -353,7 +353,7 @@ exports.talks = function() {
             'talkId': 2,
             'talkTitle': 'Intial Coin Offering',
             'speakerName': 'Akshay Aggarwal',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://oracletimes.com/wp-content/uploads/2017/11/ico.jpeg',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8ibXBnd2lvQWVlejQ/view?usp=sharing',
             'isActive': true
         },
@@ -361,7 +361,7 @@ exports.talks = function() {
             'talkId': 3,
             'talkTitle': 'The Basics Of Ethereum',
             'speakerName': 'Advaith Mohan',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://media.wired.com/photos/5a064a2bdfd4384b7ad1d8ba/master/w_2400,c_limit/roundup-TA.jpg',
             'talkUrl': 'https://slides.com/blockchainedindia/ethereumbasics/fullscreen#/',
             'isActive': true
         },
@@ -369,7 +369,7 @@ exports.talks = function() {
             'talkId': 4,
             'talkTitle': 'Decentralising with Ethereum',
             'speakerName': 'Kumar Anirudha',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://blockgeeks.com/wp-content/uploads/2016/10/Screen-Shot-2016-02-24-at-10.42.13-AM-e1456328600212.png',
             'talkUrl': 'https://anistark.github.io/talks/decentralising-with-ethereum',
             'isActive': true
         },
@@ -377,7 +377,7 @@ exports.talks = function() {
             'talkId': 5,
             'talkTitle': 'Ethereum Smart Contract',
             'speakerName': 'Vinit Agrawal',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://media.coindesk.com/uploads/2017/03/Screen-Shot-2017-03-28-at-5.43.08-PM.png',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8iMG1sdy1YSU9IdkU/view?usp=sharing',
             'isActive': true
         },
@@ -385,7 +385,7 @@ exports.talks = function() {
             'talkId': 6,
             'talkTitle': 'Introduction to Blockchain',
             'speakerName': 'Kiran Naik Danavath',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://073bddbe7aa062defd37fde3-cwzdvdpfea.netdna-ssl.com/wp-content/uploads/2017/05/blockchain-mts-2017-1000x640.jpg',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8iTTZ1VXBXRWdXRms/view?usp=sharing',
             'isActive': true
         },
@@ -393,7 +393,7 @@ exports.talks = function() {
             'talkId': 7,
             'talkTitle': 'Unravel the Mystery - Blockchain',
             'speakerName': 'Vikas Singh',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://073bddbe7aa062defd37fde3-cwzdvdpfea.netdna-ssl.com/wp-content/uploads/2017/05/blockchain-mts-2017-1000x640.jpg',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8ic0Z5azN1bnJfWDA/view?usp=sharing',
             'isActive': true
         },
@@ -409,7 +409,7 @@ exports.talks = function() {
             'talkId': 9,
             'talkTitle': 'Bitcoin and Blockchain',
             'speakerName': 'Kumar Anirudha',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'http://cryptotimes.org/wp-content/uploads/2018/03/Bitcoin%E2%80%99s-Blockchain.jpg',
             'talkUrl': 'http://anistark.github.io/talks/bitcoinIntro',
             'isActive': true
         },
@@ -433,7 +433,7 @@ exports.talks = function() {
             'talkId': 12,
             'talkTitle': 'InterPlanterary DataBase',
             'speakerName': 'Nilesh Trivedi',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://pbs.twimg.com/profile_images/877835162033291264/qCw-_vHV_400x400.jpg',
             'talkUrl': 'https://drive.google.com/file/d/1mDprxEF0cnaFXwQw0vYbthPy3khxOTcC/view',
             'isActive': true
         },
