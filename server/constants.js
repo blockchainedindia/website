@@ -465,7 +465,7 @@ exports.talks = function() {
             'talkId': 16,
             'talkTitle': 'Crypto Jacking',
             'speakerName': 'Harshit Sharma',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://cdn-images-1.medium.com/max/1200/1*WcrCSQg2TFxeY0E5w5-XsQ.png',
             'talkUrl': 'https://drive.google.com/file/d/1S5CY96ROBMKWqq_A3WOx1KaSdSCe77ct/view?usp=sharing',
             'isActive': true
         },
@@ -481,7 +481,7 @@ exports.talks = function() {
             'talkId': 18,
             'talkTitle': 'Intro to Hedera Hashgraph',
             'speakerName': 'Ankur Bakhshi',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://www.bitcoinforbeginners.io/wp-content/uploads/2018/04/Hedera-Hashgraph.jpg',
             'talkUrl': 'https://drive.google.com/file/d/1ZNXUuc2LhY7ElbDQbXQkle5MNdqviJhS/view?usp=sharing',
             'isActive': true
         }
