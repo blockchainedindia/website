@@ -460,6 +460,30 @@ exports.talks = function() {
             'talkImg': 'https://i.imgur.com/CsIYoHi.png',
             'talkUrl': 'http://anistark.github.io/talks/tangleIntro/',
             'isActive': true
+        },
+        {
+            'talkId': 16,
+            'talkTitle': 'Crypto Jacking',
+            'speakerName': 'Harshit Sharma',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1S5CY96ROBMKWqq_A3WOx1KaSdSCe77ct/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 17,
+            'talkTitle': 'DTRS – Decentralised Trust & Reputation System',
+            'speakerName': 'Vikas Singh',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1iliZtEeHLCk8uFtRu0PluZ9X7AUYVFKZ/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 18,
+            'talkTitle': 'Intro to Hedera Hashgraph',
+            'speakerName': 'Ankur Bakhshi',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1ZNXUuc2LhY7ElbDQbXQkle5MNdqviJhS/view?usp=sharing',
+            'isActive': true
         }
     ]
 };
