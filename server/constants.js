@@ -345,15 +345,15 @@ exports.talks = function() {
             'talkId': 1,
             'talkTitle': 'Dive into Blockchain',
             'speakerName': 'Kumar Anirudha',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://www.mhlnews.com/sites/mhlnews.com/files/styles/article_featured_standard/public/blockchain_0.gif?itok=PyXp3cWH',
             'talkUrl': 'https://anistark.github.io/talks/decentralising-with-ethereum',
             'isActive': true
         },
         {
             'talkId': 2,
             'talkTitle': 'Intial Coin Offering',
-            'speakerName': 'Akshay Agarwal',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'speakerName': 'Akshay Aggarwal',
+            'talkImg': 'https://oracletimes.com/wp-content/uploads/2017/11/ico.jpeg',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8ibXBnd2lvQWVlejQ/view?usp=sharing',
             'isActive': true
         },
@@ -361,7 +361,7 @@ exports.talks = function() {
             'talkId': 3,
             'talkTitle': 'The Basics Of Ethereum',
             'speakerName': 'Advaith Mohan',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://media.wired.com/photos/5a064a2bdfd4384b7ad1d8ba/master/w_2400,c_limit/roundup-TA.jpg',
             'talkUrl': 'https://slides.com/blockchainedindia/ethereumbasics/fullscreen#/',
             'isActive': true
         },
@@ -369,7 +369,7 @@ exports.talks = function() {
             'talkId': 4,
             'talkTitle': 'Decentralising with Ethereum',
             'speakerName': 'Kumar Anirudha',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://blockgeeks.com/wp-content/uploads/2016/10/Screen-Shot-2016-02-24-at-10.42.13-AM-e1456328600212.png',
             'talkUrl': 'https://anistark.github.io/talks/decentralising-with-ethereum',
             'isActive': true
         },
@@ -377,7 +377,7 @@ exports.talks = function() {
             'talkId': 5,
             'talkTitle': 'Ethereum Smart Contract',
             'speakerName': 'Vinit Agrawal',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://media.coindesk.com/uploads/2017/03/Screen-Shot-2017-03-28-at-5.43.08-PM.png',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8iMG1sdy1YSU9IdkU/view?usp=sharing',
             'isActive': true
         },
@@ -385,7 +385,7 @@ exports.talks = function() {
             'talkId': 6,
             'talkTitle': 'Introduction to Blockchain',
             'speakerName': 'Kiran Naik Danavath',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://073bddbe7aa062defd37fde3-cwzdvdpfea.netdna-ssl.com/wp-content/uploads/2017/05/blockchain-mts-2017-1000x640.jpg',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8iTTZ1VXBXRWdXRms/view?usp=sharing',
             'isActive': true
         },
@@ -393,7 +393,7 @@ exports.talks = function() {
             'talkId': 7,
             'talkTitle': 'Unravel the Mystery - Blockchain',
             'speakerName': 'Vikas Singh',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'http://www.financnitrgi.com/wp-content/uploads/biometric_blockchain_bitcoin.jpg',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8ic0Z5azN1bnJfWDA/view?usp=sharing',
             'isActive': true
         },
@@ -409,7 +409,7 @@ exports.talks = function() {
             'talkId': 9,
             'talkTitle': 'Bitcoin and Blockchain',
             'speakerName': 'Kumar Anirudha',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'http://cryptotimes.org/wp-content/uploads/2018/03/Bitcoin%E2%80%99s-Blockchain.jpg',
             'talkUrl': 'http://anistark.github.io/talks/bitcoinIntro',
             'isActive': true
         },
@@ -417,7 +417,7 @@ exports.talks = function() {
             'talkId': 10,
             'talkTitle': 'Types of Blockchain',
             'speakerName': 'Advaith Mohan',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://blockchainsemantics.s3.amazonaws.com/media/system/blog/TYPES-OF-BLOCKCHAIN.jpg',
             'talkUrl': 'http://slides.com/blockchainedindia/deck',
             'isActive': true
         },
@@ -425,7 +425,7 @@ exports.talks = function() {
             'talkId': 11,
             'talkTitle': 'Applications of Blockchain',
             'speakerName': 'Shivhari Shankar',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://3mgj4y44nc15fnv8d303d8zb-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/What-is-a-Decentralized-Application-696x449.jpg',
             'talkUrl': 'https://drive.google.com/file/d/1xlQ2oHeNhURSemYLqhDCMl0KLpBGqGdV/view',
             'isActive': true
         },
@@ -433,7 +433,7 @@ exports.talks = function() {
             'talkId': 12,
             'talkTitle': 'InterPlanterary DataBase',
             'speakerName': 'Nilesh Trivedi',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://pbs.twimg.com/profile_images/877835162033291264/qCw-_vHV_400x400.jpg',
             'talkUrl': 'https://drive.google.com/file/d/1mDprxEF0cnaFXwQw0vYbthPy3khxOTcC/view',
             'isActive': true
         },
@@ -449,8 +449,40 @@ exports.talks = function() {
             'talkId': 14,
             'talkTitle': 'Essential ERCs',
             'speakerName': 'Mayur Relekar',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://cdn-images-1.medium.com/max/1024/1*di6g2aso-keEx60GOdy5kQ.jpeg',
             'talkUrl': 'https://docs.google.com/presentation/d/1vg-4TQPqDOMUMt8cKIFDZzHS4JepxNpzS9yMzra8sSU/edit?ts=5b000fe8#slide=id.g3ab0fc39cf_0_70',
+            'isActive': true
+        },
+        {
+            'talkId': 15,
+            'talkTitle': 'Introduction to Tangle',
+            'speakerName': 'Kumar Anirudha',
+            'talkImg': 'https://kriptovalute.si/wp-content/uploads/2017/12/IOTA-Cryptocurrency.png',
+            'talkUrl': 'http://anistark.github.io/talks/tangleIntro/',
+            'isActive': true
+        },
+        {
+            'talkId': 16,
+            'talkTitle': 'Crypto Jacking',
+            'speakerName': 'Harshit Sharma',
+            'talkImg': 'https://cdn-images-1.medium.com/max/1200/1*WcrCSQg2TFxeY0E5w5-XsQ.png',
+            'talkUrl': 'https://drive.google.com/file/d/1S5CY96ROBMKWqq_A3WOx1KaSdSCe77ct/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 17,
+            'talkTitle': 'DTRS – Decentralised Trust & Reputation System',
+            'speakerName': 'Vikas Singh',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1iliZtEeHLCk8uFtRu0PluZ9X7AUYVFKZ/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 18,
+            'talkTitle': 'Intro to Hedera Hashgraph',
+            'speakerName': 'Ankur Bakhshi',
+            'talkImg': 'https://www.bitcoinforbeginners.io/wp-content/uploads/2018/04/Hedera-Hashgraph.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1ZNXUuc2LhY7ElbDQbXQkle5MNdqviJhS/view?usp=sharing',
             'isActive': true
         }
     ]
