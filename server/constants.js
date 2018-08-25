@@ -484,6 +484,14 @@ exports.talks = function() {
             'talkImg': 'https://www.bitcoinforbeginners.io/wp-content/uploads/2018/04/Hedera-Hashgraph.jpg',
             'talkUrl': 'https://drive.google.com/file/d/1ZNXUuc2LhY7ElbDQbXQkle5MNdqviJhS/view?usp=sharing',
             'isActive': true
+        },
+        {
+            'talkId': 19,
+            'talkTitle': 'Dive into IOTA Tangle',
+            'speakerName': 'Manav Ailawadi & Kumar Anirudha',
+            'talkImg': 'https://cryptocurrencynews.com/wp-content/uploads/sites/3/2017/12/IOTA-Doesnt-Run-on-Blockchain-Does-that-Make-It-Better-than-Bitcoin-678x381.png',
+            'talkUrl': 'https://drive.google.com/file/d/1UF7E-Pr9vweLW27COgsrWDw5_vQTOv7L/view',
+            'isActive': true
         }
     ]
 };
