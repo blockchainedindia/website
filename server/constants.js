@@ -492,6 +492,14 @@ exports.talks = function() {
             'talkImg': 'https://cryptocurrencynews.com/wp-content/uploads/sites/3/2017/12/IOTA-Doesnt-Run-on-Blockchain-Does-that-Make-It-Better-than-Bitcoin-678x381.png',
             'talkUrl': 'https://drive.google.com/file/d/1UF7E-Pr9vweLW27COgsrWDw5_vQTOv7L/view',
             'isActive': true
+        },
+        {
+            'talkId': 20,
+            'talkTitle': 'The convergence of Blockchain & IOT',
+            'speakerName': 'Advaith Mohan',
+            'talkImg': 'https://mobilemarketingwatch.com/wp-content/uploads/2016/09/Internet-of-Things.jpg',
+            'talkUrl': 'https://slides.com/blockchainedindia/blockchain-iot/#/',
+            'isActive': true
         }
     ]
 };
