@@ -500,6 +500,22 @@ exports.talks = function() {
             'talkImg': 'https://mobilemarketingwatch.com/wp-content/uploads/2016/09/Internet-of-Things.jpg',
             'talkUrl': 'https://slides.com/blockchainedindia/blockchain-iot/#/',
             'isActive': true
+        },
+        {
+            'talkId': 21,
+            'talkTitle': 'The Applicability of Blockchain in Vehicular Telematics',
+            'speakerName': 'NIRAV BAKSHI',
+            'talkImg': 'http://blog.autointhebox.com/wp-content/uploads/2015/03/What-does-vehicle-telematics-mean-to-car-people-874x492.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1_E1ROmmsnEWWvYYjD0X8ag4W_QVewa5T/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 22,
+            'talkTitle': 'Nikoin',
+            'speakerName': 'APOORV SHANKAR',
+            'talkImg': 'https://nikoin.com/img/nikoin-logo-meta.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1FSYpy3ITQXuUh0tPnaeCkZk4gOf07qxf/view?usp=sharing',
+            'isActive': true
         }
     ]
 };
