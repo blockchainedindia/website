@@ -514,7 +514,23 @@ exports.talks = function() {
             'talkTitle': 'Nikoin',
             'speakerName': 'APOORV SHANKAR',
             'talkImg': 'https://nikoin.com/img/nikoin-logo-meta.jpg',
-            'talkUrl': 'https://drive.google.com/file/d/1FSYpy3ITQXuUh0tPnaeCkZk4gOf07qxf/view?usp=sharing',
+            'talkUrl': 'https://drive.google.com/file/d/1FSYpy3ITQXuUh0tPnaeCkZk4gOf07qxf/view',
+            'isActive': true
+        },
+        {
+            'talkId': 23,
+            'talkTitle': 'Decentralized AI',
+            'speakerName': 'Exelis',
+            'talkImg': 'https://cdn-images-1.medium.com/max/1600/1*DlyYV9TMbGMOnLjDSWEj0A.jpeg',
+            'talkUrl': 'https://drive.google.com/file/d/1CGDQYu9MrVaWi9KnPfmi7GEqHLYkuU9h/view',
+            'isActive': true
+        },
+        {
+            'talkId': 24,
+            'talkTitle': 'Formless Blockchain',
+            'speakerName': 'Karan Bharadwaj',
+            'talkImg': 'https://images.unsplash.com/photo-1464294422770-538af108fbd6',
+            'talkUrl': 'https://drive.google.com/file/d/16p4S7qFX4lZVGyWQA6JR2tVS69ooa1L0/view',
             'isActive': true
         }
     ]
