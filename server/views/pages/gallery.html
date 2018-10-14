@@ -119,27 +119,28 @@
   }
 </style>
 
+<!-- <img src="https://drive.google.com/file/d/0B_75HRyG9MViYkN5ajUtQmpGa1U/preview"/> -->
 <section id="gallery">
   <div class="container">
     <div id="image-gallery">
       <div class="row">
         <!-- <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
-          <div class="img-wrapper">
-            <a href="https://unsplash.it/501"><img src="https://unsplash.it/501" class="img-responsive"></a>
+          <div class="img-wrapper"> 
+            <a href="https://unsplash.it/501"><img src="https://lh5.googleusercontent.com/-Ll6psk_eXPc/AAAAAAAAAAI/AAAAAAAACi0/RIIMB8DFbvI/s64/photo.jpg" class="img-responsive"></a>
             <div class="img-overlay">
               <i class="fa fa-eye" aria-hidden="true"></i>
             </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+        </div> -->
+        <!-- <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
           <div class="img-wrapper">
             <a href="https://unsplash.it/502"><img src="https://unsplash.it/502" class="img-responsive"></a>
             <div class="img-overlay">
               <i class="fa fa-eye" aria-hidden="true"></i>
             </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+        </div> -->
+        <!-- <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
           <div class="img-wrapper">
             <a href="https://unsplash.it/503"><img src="https://unsplash.it/503" class="img-responsive"></a>
             <div class="img-overlay">
@@ -147,15 +148,42 @@
             </div>
           </div>
         </div> -->
-        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/anistark/albums/72157670565367057" title="Blockchained India"><img src="https://farm2.staticflickr.com/1893/30405848548_0fbb5c722f_z.jpg" width="640" height="360" alt="Blockchained India"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+        <!-- <a data-flickr-embed="true"  href="https://www.flickr.com/photos/anistark/albums/72157670565367057" title="Blockchained India"><img src="https://farm2.staticflickr.com/1893/30405848548_0fbb5c722f_z.jpg" width="640" height="360" alt="Blockchained India"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script> -->
       </div><!-- End row -->
     </div><!-- End image gallery -->
   </div><!-- End container -->
 </section>
 
+  <div class="container">
+      <div class="row">
+        {% for eventItem in GalleryData %}
+        <div class="col-sm-4">
+          <a href="/gallery/{{eventItem.id}}">  
+            <iframe src="{{ eventItem.images[0] }}" ></iframe>
+            <h2>{{eventItem.title}}</h2>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script>
+<!-- <script>
     // Gallery image hover
     $( ".img-wrapper" ).hover(
       function() {
@@ -178,8 +206,8 @@
 
     // Hide overlay on default
     $overlay.hide();
-
-    // When an image is clicked
+ 
+    // // When an image is clicked
     $(".img-overlay").click(function(event) {
       // Prevents default behavior
       event.preventDefault();
@@ -197,7 +225,7 @@
       $(this).fadeOut("slow");
     });
 
-    // When next button is clicked
+    // // When next button is clicked
     $nextButton.click(function(event) {
       // Hide the current image
       $("#overlay img").hide();
@@ -220,8 +248,8 @@
       // Prevents overlay from being hidden
       event.stopPropagation();
     });
-
-    // When previous button is clicked
+ 
+    // // When previous button is clicked
     $prevButton.click(function(event) {
       // Hide the current image
       $("#overlay img").hide();
@@ -234,7 +262,7 @@
       // Fade in the next image
       $("#overlay img").attr("src", $nextImg.attr("src")).fadeIn(800);
       // Prevents overlay from being hidden
-      event.stopPropagation();
+      event.stopPropagation(); 
     });
 
     // When the exit button is clicked
@@ -242,6 +270,6 @@
       // Fade out the overlay
       $("#overlay").fadeOut("slow");
     });
-</script>
+</script>-->
 
 {% endblock %}

@@ -3,6 +3,7 @@ var router = express.Router();
 var models = require('../models/index');
 var helpers = require('../helpers');
 var constants = require('../constants');
+var galleryData = require('../../gallery');
 
 // Routes
 
@@ -20,10 +21,27 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/gallery', function(req, res, next) {
-    res.render('pages/gallery', { title: 'Blockchained India Gallery' });
+    var data = galleryData;
+    console.log(data);
+    res.render('pages/gallery', { title: 'Blockchained India Gallery' , GalleryData:data});
 });
 
-router.get('/talks', function(req, res, next) {
+router.get('/gallery/:id',function(req,res,next){
+    var data = galleryData;
+    var i;
+    for(i=0;i<data.length;i++)
+    {
+        if(data[i].id === req.params.id)
+        {
+            break;
+        }
+    }
+    
+    res.render('pages/eventGallery',{title: data[i].title, Images:data[i].images});
+
+});
+
+router.get('/talks/:id', function(req, res, next) {
     let talksData = constants.talks();
     // console.log('talksData:', talksData);
     res.render('pages/talks', { title: 'Blockchained India Talks', talksData: talksData });
