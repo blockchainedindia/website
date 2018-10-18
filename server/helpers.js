@@ -111,15 +111,14 @@ exports.GetGalleryData = function (callback) {
     // If modifying these scopes, delete token.json.
     const SCOPES = ['https://www.googleapis.com/auth/drive.metadata.readonly'];
     const TOKEN_PATH = 'token.json';
-    console.log(__dirname);
     // // Load client secrets from a local file.
     // fs.readFile('credentials.json', (err, content) => {
     //   if (err) return console.log('Error loading client secret file:', err);
     //   // Authorize a client with credentials, then call the Google Drive API.
     //   authorize(JSON.parse(content), listFiles);
     // });
-    if (Config.installed) {
-        authorize(Config.installed, listFiles);
+    if (Config.googledrive) {
+        authorize(Config.googledrive, listFiles);
     }
     else {
         console.log('Error loadin secret files');

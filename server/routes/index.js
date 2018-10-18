@@ -21,12 +21,7 @@ router.get('/', function(req, res, next) {
 
 var galleryData = '';
 
-router.get('/gallery', function(req, res, next) {
-    helpers.GetGalleryData(function(data){
-        galleryData = data;
-        res.render('pages/gallery', { title: 'Blockchained India Gallery' , GalleryData:data});
-    });
-});
+
 
 router.get('/gallery/:id',function(req,res,next){
     var data = galleryData;
@@ -45,6 +40,12 @@ router.get('/gallery/:id',function(req,res,next){
     }
 })
 
+router.get('/gallery', function(req, res, next) {
+    helpers.GetGalleryData(function(data){
+        galleryData = data;
+        res.render('pages/gallery', { title: 'Blockchained India Gallery' , GalleryData:data});
+    });
+});
 router.get('/talks', function(req, res, next) {
     let talksData = constants.talks();
     // console.log('talksData:', talksData);
