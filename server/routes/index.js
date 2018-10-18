@@ -19,9 +19,31 @@ router.get('/', function(req, res, next) {
     res.render('pages/home', { title: 'Blockchained India' });
 });
 
+var galleryData = '';
+
 router.get('/gallery', function(req, res, next) {
-    res.render('pages/gallery', { title: 'Blockchained India Gallery' });
+    helpers.GetGalleryData(function(data){
+        galleryData = data;
+        res.render('pages/gallery', { title: 'Blockchained India Gallery' , GalleryData:data});
+    });
 });
+
+router.get('/gallery/:id',function(req,res,next){
+    var data = galleryData;
+    if(data)
+    {
+        var i=0;
+        while(data[i++].id!==req.params.id);
+        res.render('pages/event_gallery',{title: data[i-1].title, Images:data[i-1].images});
+    }
+    else{
+        helpers.GetGalleryData(function(data){
+            var i=0;
+            while(data[i++].id!==req.params.id);
+            res.render('pages/event_gallery',{title: data[i-1].title, Images:data[i-1].images});               
+        }); 
+    }
+})
 
 router.get('/talks', function(req, res, next) {
     let talksData = constants.talks();
