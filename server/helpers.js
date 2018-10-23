@@ -6,7 +6,8 @@
  */
 
 var constants = require('./constants');
-var Config = require('../config')
+var Config = require('../config');
+var configJSON = require('./config');
 const fs = require('fs');
 const readline = require('readline');
 const { google } = require('googleapis');
@@ -135,12 +136,22 @@ exports.GetGalleryData = function (callback) {
         const oAuth2Client = new google.auth.OAuth2(
             client_id, client_secret, redirect_uris[0]);
 
-        // Check if we have previously stored a token.
-        fs.readFile(TOKEN_PATH, (err, token) => {
-            if (err) return getAccessToken(oAuth2Client, callback);
-            oAuth2Client.setCredentials(JSON.parse(token));
+        // // Check if we have previously stored a token.
+        // fs.readFile(TOKEN_PATH, (err, token) => {
+        //     if (err) return getAccessToken(oAuth2Client, callback);
+        //     oAuth2Client.setCredentials(JSON.parse(token));
+        //     callback(oAuth2Client);
+        // });
+
+        if(configJSON.driveToken)
+        {
+            oAuth2Client.setCredentials(configJSON.driveToken);
             callback(oAuth2Client);
-        });
+        }
+        else
+        {
+            getAccessToken(oAuth2Client, callback);
+        }
     }
 
     /**
@@ -165,15 +176,21 @@ exports.GetGalleryData = function (callback) {
                 if (err) return console.error('Error retrieving access token', err);
                 oAuth2Client.setCredentials(token);
                 // Store the token to disk for later program executions
-                fs.writeFile(TOKEN_PATH, JSON.stringify(token), (err) => {
+                // fs.writeFile(TOKEN_PATH, JSON.stringify(token), (err) => {
+                //     if (err) console.error(err);
+                //     console.log('Token stored to', TOKEN_PATH);
+                // });
+                configJSON.driveToken = token;
+                fs.writeFile('./server/config.json',JSON.stringify(configJSON),(err)=>{
                     if (err) console.error(err);
-                    console.log('Token stored to', TOKEN_PATH);
-                });
+                        console.log('Token stored'); 
+                })
+
                 callback(oAuth2Client);
             });
         });
     }
-
+ 
     function listFiles(auth) {
         const drive = google.drive({ version: 'v3', auth });
 
