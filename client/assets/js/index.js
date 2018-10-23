@@ -6,7 +6,7 @@ function doSlide (slider) {
 function onSlide (e) {
   var o = e.target.parentNode;
   clearTimeout(o.autoslider);
-  o.autoslider = setTimeout(function(){doSlide(o);}, 15e3);
+  o.autoslider = setTimeout(function(){doSlide(o);}, 5000);
 }
 $(function(){
   $(document).on("click", "input.slide", onSlide);
