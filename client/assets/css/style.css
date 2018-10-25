@@ -115,6 +115,20 @@ body {
     background-size: contain;
 }
 
+#landing>.header>.header-title {
+    font-size: .875em;
+    color: #fe8f4f;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .2s;
+
+    display: inline-block;
+    position: absolute;
+    left: 6em;    
+}
+
+
 #landing>.header>.button {
     font-size: .75em;
     border-width: .18em;
@@ -391,7 +405,7 @@ body {
 }
 
 #landing .slider .content {
-    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 #landing .slider>img.ratio {
