@@ -513,7 +513,7 @@ exports.talks = function() {
             'talkId': 22,
             'talkTitle': 'Nikoin',
             'speakerName': 'APOORV SHANKAR',
-            'talkImg': 'https://nikoin.com/img/nikoin-logo-meta.jpg',
+            'talkImg': 'https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/j1yricuijkdt1l35scr5',
             'talkUrl': 'https://drive.google.com/file/d/1FSYpy3ITQXuUh0tPnaeCkZk4gOf07qxf/view',
             'isActive': true
         },
