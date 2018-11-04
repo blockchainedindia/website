@@ -540,6 +540,22 @@ exports.talks = function() {
             'talkImg': 'https://cdn-images-1.medium.com/max/1150/0*RT8o8v5ZZWSNESN-.png',
             'talkUrl': 'https://www.slideshare.net/pranay01/crypto-ux-and-mass-adoption',
             'isActive': true
+        },
+        {
+            'talkId': 26,
+            'talkTitle': 'Blockchain Scaling Solutions',
+            'speakerName': 'Anomit Ghosh',
+            'talkImg': 'https://proglib.io/wp-content/uploads/2018/04/blockchian-new.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/186STC9qPFV4wPmupkdi1iJD5MZ-ymQIi/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 27,
+            'talkTitle': 'Decoding ICO Myths',
+            'speakerName': 'Nirmal L',
+            'talkImg': 'https://elevenews.com/wp-content/uploads/2018/04/ico1.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1MEzH-_i2OTCnu2MHEIbjh9Y_U0SSHzea/view?usp=sharing',
+            'isActive': true
         }
     ]
 };
