@@ -532,6 +532,14 @@ exports.talks = function() {
             'talkImg': 'https://images.unsplash.com/photo-1464294422770-538af108fbd6',
             'talkUrl': 'https://drive.google.com/file/d/16p4S7qFX4lZVGyWQA6JR2tVS69ooa1L0/view',
             'isActive': true
+        },
+        {
+            'talkId': 25,
+            'talkTitle': 'Crypto UX and Mass Adoption',
+            'speakerName': 'Pranay Prateek',
+            'talkImg': 'https://cdn-images-1.medium.com/max/1150/0*RT8o8v5ZZWSNESN-.png',
+            'talkUrl': 'https://www.slideshare.net/pranay01/crypto-ux-and-mass-adoption',
+            'isActive': true
         }
     ]
 };
