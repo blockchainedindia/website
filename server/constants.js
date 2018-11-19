@@ -556,6 +556,30 @@ exports.talks = function() {
             'talkImg': 'https://elevenews.com/wp-content/uploads/2018/04/ico1.jpg',
             'talkUrl': 'https://drive.google.com/file/d/1MEzH-_i2OTCnu2MHEIbjh9Y_U0SSHzea/view?usp=sharing',
             'isActive': true
+        },
+        {
+            'talkId': 28,
+            'talkTitle': 'Privacy issues and proposed solutions for Blockchain',
+            'speakerName': 'Opinder Preet Singh',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1BoDLdpYBwth1VkxXkPVDpnpOMdK449Yd/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 29,
+            'talkTitle': 'Blockchain: Regulations, Legal challenges & Solutions',
+            'speakerName': 'Varun Sethi',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1IS0CAfuS0oiKqN0FJR-vZFya9K5E1Hvc/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 30,
+            'talkTitle': 'Hedera Hashgraph',
+            'speakerName': 'Ankur Bakshi',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1Qb9TzLibwGoXGfwLxXdlGxHWjLWjW4Pd/view?usp=sharing',
+            'isActive': true
         }
     ]
 };
