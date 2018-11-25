@@ -580,6 +580,30 @@ exports.talks = function() {
             'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://drive.google.com/file/d/1Qb9TzLibwGoXGfwLxXdlGxHWjLWjW4Pd/view?usp=sharing',
             'isActive': true
+        },
+        {
+            'talkId': 31,
+            'talkTitle': 'Evolution and Cryptocurrencies',
+            'speakerName': 'Akshay Aggarwal',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1S3pomxlkb90k_ftLsrGA8LDf1NwFIjZZ/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 32,
+            'talkTitle': 'Zero Knowledge proofs',
+            'speakerName': 'Shivhari Shankar',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1L2hIoJZ7qfUypOykifIeUQqXgMLVVmaT/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 33,
+            'talkTitle': 'Aurigraph',
+            'speakerName': 'Subbu Jois',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1T18J5ZWn7_pBi4fzL9Md2f_Ng_qHuMya/view?usp=sharing',
+            'isActive': true
         }
     ]
 };
