@@ -585,7 +585,7 @@ exports.talks = function() {
             'talkId': 31,
             'talkTitle': 'Evolution and Cryptocurrencies',
             'speakerName': 'Akshay Aggarwal',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://ethereumworldnews.com/wp-content/uploads/2017/06/Cryptocurrency.png',
             'talkUrl': 'https://drive.google.com/file/d/1S3pomxlkb90k_ftLsrGA8LDf1NwFIjZZ/view?usp=sharing',
             'isActive': true
         },
@@ -593,7 +593,7 @@ exports.talks = function() {
             'talkId': 32,
             'talkTitle': 'Zero Knowledge proofs',
             'speakerName': 'Shivhari Shankar',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://matthewdgreen.files.wordpress.com/2014/11/54b69-zk.jpg',
             'talkUrl': 'https://drive.google.com/file/d/1L2hIoJZ7qfUypOykifIeUQqXgMLVVmaT/view?usp=sharing',
             'isActive': true
         },
