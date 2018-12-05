@@ -604,6 +604,22 @@ exports.talks = function() {
             'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://drive.google.com/file/d/1T18J5ZWn7_pBi4fzL9Md2f_Ng_qHuMya/view?usp=sharing',
             'isActive': true
+        },
+        {
+            'talkId': 34,
+            'talkTitle': 'The Applicability of Blockchain in Vehicular Telematics',
+            'speakerName': 'Nirav',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1PQ0b4OiFere3fee2DrGLipLWMAL4N8El/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 35,
+            'talkTitle': 'DAICO',
+            'speakerName': 'Partha Bhattacharya',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1BpIbg6Ve3vEec6B9opwaB7F4RiZs8E7t/view?usp=sharing',
+            'isActive': true
         }
     ]
 };
