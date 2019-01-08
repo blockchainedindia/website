@@ -620,6 +620,22 @@ exports.talks = function() {
             'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://drive.google.com/file/d/1BpIbg6Ve3vEec6B9opwaB7F4RiZs8E7t/view?usp=sharing',
             'isActive': true
+        },
+        {
+            'talkId': 36,
+            'talkTitle': 'Introduction to Tendermint',
+            'speakerName': 'Vikas',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1hCz7biNgcDHXkdPv_eISLBwMtmtjxYvK/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 37,
+            'talkTitle': 'Comaprison between Bitcoin, Ethereum and Stellar',
+            'speakerName': 'Rohit Jindal',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1YCLeiY9P41d1_85ThrqmePG0xEugrV_N/view?usp=sharing',
+            'isActive': true
         }
     ]
 };
