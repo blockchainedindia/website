@@ -665,15 +665,15 @@ exports.talks = function() {
             'talkId': 41,
             'talkTitle': 'Decentralised AI',
             'speakerName': 'Paul Finney',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://xceptionalnetworks.bypronto.com/wp-content/uploads/sites/502/2018/09/Blog-Post-9-19-18.jpeg',
             'talkUrl': 'https://drive.google.com/file/d/1Do_OVXhmBZB4uCXORweyguQfBfixpAwz/view?usp=sharing',
             'isActive': true
         },
         {
             'talkId': 42,
-            'talkTitle': 'Blockchain - Recent Trends and Adoption',
+            'talkTitle': 'Smart Contracts Vunlenrability and Auditing',
             'speakerName': 'Sarang Parikh',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://cdn-images-1.medium.com/max/677/1*MudxYgXNAvgXyJZzWoMguQ.png',
             'talkUrl': 'https://github.com/sarangparikh22/blockchained-india-19-01-2019/',
             'isActive': true
         },
@@ -681,7 +681,7 @@ exports.talks = function() {
             'talkId': 43,
             'talkTitle': 'Serenity',
             'speakerName': 'Prateek',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://vic.news/wp-content/uploads/2018/11/ETH-2.0-biaf.png',
             'talkUrl': 'https://drive.google.com/file/d/13eq3uRuKQC2KGSzvwaHxcMWNvnSh2TWC/view?usp=sharing',
             'isActive': true
         }
