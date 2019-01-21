@@ -636,6 +636,54 @@ exports.talks = function() {
             'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://drive.google.com/file/d/1YCLeiY9P41d1_85ThrqmePG0xEugrV_N/view?usp=sharing',
             'isActive': true
+        },
+        {
+            'talkId': 38,
+            'talkTitle': 'Origin Protocol',
+            'speakerName': 'Jon Hearty',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/13WbfKEOEeZDUJJkQnbDq-qKCtOT0fU8u/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 39,
+            'talkTitle': 'Layer 2 Scaling Solutions',
+            'speakerName': 'Anurag Arjun',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1mrzZT1Z0d7bdW6NFF2gk6EQpMAlSPYf9/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 40,
+            'talkTitle': 'Blockchain - Recent Trends and Adoption',
+            'speakerName': 'Pranjal B',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1x4T4MYti9NSi6YSFfJwvxzYpDQIJKeqm/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 41,
+            'talkTitle': 'Decentralised AI',
+            'speakerName': 'Paul Finney',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1Do_OVXhmBZB4uCXORweyguQfBfixpAwz/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 42,
+            'talkTitle': 'Blockchain - Recent Trends and Adoption',
+            'speakerName': 'Sarang Parikh',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://github.com/sarangparikh22/blockchained-india-19-01-2019/',
+            'isActive': true
+        },
+        {
+            'talkId': 43,
+            'talkTitle': 'Serenity',
+            'speakerName': 'Prateek',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/13eq3uRuKQC2KGSzvwaHxcMWNvnSh2TWC/view?usp=sharing',
+            'isActive': true
         }
     ]
 };
