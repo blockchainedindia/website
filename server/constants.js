@@ -684,6 +684,30 @@ exports.talks = function() {
             'talkImg': 'https://vic.news/wp-content/uploads/2018/11/ETH-2.0-biaf.png',
             'talkUrl': 'https://drive.google.com/file/d/13eq3uRuKQC2KGSzvwaHxcMWNvnSh2TWC/view?usp=sharing',
             'isActive': true
+        },
+        {
+            'talkId': 44,
+            'talkTitle': 'Privacy on Blockchain',
+            'speakerName': 'Siddarth Gupta',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1-Dq8OVWNvJKqIKMvdUo9H_hJ8qizdbHD/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 45,
+            'talkTitle': 'Smart Contracts Audit',
+            'speakerName': 'Mithil Thakore',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1dKd7WLAlA5Cp3fifykyCxWEvRl8gCMZX/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 46,
+            'talkTitle': 'Tezos',
+            'speakerName': 'Om & Bernd',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1kRIoVpu-MVyE3tf3j-OKu-4nHQT5KWRG/view?usp=sharing',
+            'isActive': true
         }
     ]
 };
