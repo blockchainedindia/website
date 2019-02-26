@@ -708,6 +708,22 @@ exports.talks = function() {
             'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://drive.google.com/file/d/1kRIoVpu-MVyE3tf3j-OKu-4nHQT5KWRG/view?usp=sharing',
             'isActive': true
+        },
+        {
+            'talkId': 47,
+            'talkTitle': 'POST Protocol',
+            'speakerName': '',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1v4SHRrbkgSKQDG54zOn5dLgNV-dwcoOj/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 48,
+            'talkTitle': 'Community Governance via Blockchain',
+            'speakerName': 'Sistla Abhishek',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/12sOGiEOxJJXf4ewhtX0EZZpU5lK1KaPS/view?usp=sharing',
+            'isActive': true
         }
     ]
 };
