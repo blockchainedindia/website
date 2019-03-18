@@ -114,7 +114,7 @@ exports.teamMembers = function() {
             'name': 'Anirudha',
             'postName': '',
             'picture': 'https://i.imgur.com/b7vjK2N.jpg',
-            'detail': 'Tech Evangelist, open source contributor and mentor.',
+            'detail': 'Founder @AcyclicLabs, open source contributor and mentor.',
             'socialHandles': {
                 'twitter': 'https://twitter.com/kranirudha',
                 'github': 'https://github.com/anistark',
@@ -124,14 +124,14 @@ exports.teamMembers = function() {
         },
         {
             'memberId': 3,
-            'memberHandle': 'karthika',
+            'memberHandle': 'manav',
             'preName': '',
-            'name': 'Karthika',
-            'postName': 'Sivakumar',
-            'picture': 'https://i.imgur.com/MEZR12i.jpg',
-            'detail': 'Community Manager at Thoughfactory. Excited about the future of Blockchain.',
+            'name': 'Manav',
+            'postName': 'Ailawadi',
+            'picture': 'https://i.imgur.com/0pQGSpT.jpg',
+            'detail': 'Entrepreneur',
             'socialHandles': {
-                'facebook': 'https://facebook.com/karthikasiv'
+                'facebook': 'https://facebook.com/manav.ailawadi'
             },
             'isActive': true
         },
@@ -152,14 +152,14 @@ exports.teamMembers = function() {
         },
         {
             'memberId': 5,
-            'memberHandle': 'manav',
+            'memberHandle': 'karthika',
             'preName': '',
-            'name': 'Manav',
-            'postName': 'Ailawadi',
-            'picture': 'https://i.imgur.com/0pQGSpT.jpg',
-            'detail': 'Entrepreneur',
+            'name': 'Karthika',
+            'postName': 'Sivakumar',
+            'picture': 'https://i.imgur.com/MEZR12i.jpg',
+            'detail': 'Community Manager at Thoughfactory. Excited about the future of Blockchain.',
             'socialHandles': {
-                'facebook': 'https://facebook.com/manav.ailawadi'
+                'facebook': 'https://facebook.com/karthikasiv'
             },
             'isActive': true
         },
