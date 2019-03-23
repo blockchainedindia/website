@@ -6,6 +6,7 @@ blog.md
 server/config.json
 config.js
 *.rdb
+token.json
 client/uploads/*
 
 
