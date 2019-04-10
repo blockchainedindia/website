@@ -1,121 +1,14 @@
 <style>
-    #banners {
-        height: 10rem;
-        overflow-x: hidden;
-        position: relative;
+    .banner-container {
+        background-image: url(https://i.imgur.com/eEevlEN.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
         width: 100%;
-    }
-
-    #banners .banner {
-        animation: bannerOne 15s linear infinite;
-        height: 10rem;
-        position: absolute;
-        width: 100%;
-    }
-
-    #banners .banner.one h1,
-    #banners .banner.two h1,
-    #banners .banner.three h1 {
-        color: #fff;
-        font-size: 2rem;
-        padding: 2rem;
-        margin: 0;
-    }
-
-    #banners .banner.one h1 span,
-    #banners .banner.two h1 span,
-    #banners .banner.three h1 span {
-        display: block;
-    }
-
-    #banners .banner.one .image,
-    #banners .banner.two .image,
-    #banners .banner.three .image {
-        height: 100%;
-        position: absolute;
-        top: 0;
-        width: 50%;
-    }
-
-    #banners .banner.three {
-        animation-name: bannerThree;
-        background: #4CAF50;
-    }
-
-    #banners .banner.three h1 {
-        float: right;
-        width: 50%;
-    }
-
-    #banners .banner.three .image {
-        background: url("https://www.indiadappfest.com/wp-content/uploads/2019/02/IDF-Deck_v2_website.jpg") no-repeat left center;
-        background-size: 100%;
-        left: 0;
-    }
-
-    /* small */
-
-    @media (min-width: 321px) and (max-width: 728px) {
-        #banners {
-            height: 12rem;
-        }
-        #banners .banner.one,
-        #banners .banner.two,
-        #banners .banner.three {
-            height: 12rem;
-        }
-        #banners .banner.one h1,
-        #banners .banner.two h1,
-        #banners .banner.three h1 {
-            font-size: 3rem;
-            padding: 2rem;
-        }
-    }
-
-    /* medium */
-
-    @media (min-width: 729px) and (max-width: 960px) {
-        #banners {
-            height: 20rem;
-        }
-        #banners .banner.one,
-        #banners .banner.two,
-        #banners .banner.three {
-            height: 20rem;
-        }
-        #banners .banner.one h1,
-        #banners .banner.two h1,
-        #banners .banner.three h1 {
-            font-size: 6rem;
-            padding: 2rem;
-        }
-    }
-
-    /* large */
-
-    @media (min-width: 961px) {
-        #banners {
-            height: 20rem;
-        }
-        #banners .banner.one,
-        #banners .banner.two,
-        #banners .banner.three {
-            height: 20rem;
-        }
-        #banners .banner.one h1,
-        #banners .banner.two h1,
-        #banners .banner.three h1 {
-            font-size: 6rem;
-            padding: 2rem;
-        }
+        height: 400px;
     }
 </style>
 
 <a href="https://www.indiadappfest.com/" target="_blank">
-    <section id="banners">
-        <div class="banner three">
-            <h1>India <span>Dapp Fest</span</h1>
-            <div class="image"></div>
-        </div>
+    <section class="banner-container">
     </section>
 </a>
