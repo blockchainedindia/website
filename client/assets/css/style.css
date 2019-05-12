@@ -283,7 +283,7 @@ body {
 }
 
 #landing>.footer a {
-    color: #01affe;
+    color: #fe8f4f;
     text-decoration: none;
 }
 
@@ -339,7 +339,7 @@ body {
     padding: 0 1em;
     text-align: center;
     text-transform: uppercase;
-    background: #01affe;
+    background: #fe8f4f;
     color: #fff;
     cursor: pointer;
     margin-left: -0.4em;
@@ -368,7 +368,7 @@ body {
 }
 
 #landing>.copyright a {
-    color: #01affe;
+    color: #fe8f4f;
     text-decoration: none;
 }
 
