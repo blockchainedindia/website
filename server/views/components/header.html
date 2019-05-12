@@ -16,70 +16,98 @@
     <img class="ratio" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7" />
 
     <input class="slide" type="radio" name="slider-1" id="s-1-1" /><label for="s-1-1"></label>
-    <div>
-        <img class="header-background" src="https://i.imgur.com/viXndRV.jpg" />
+    <div  style="background-color:rgba(0,0,0,1)">
+        <img class="header-background" src="https://i.imgur.com/viXndRV.jpg" style="opacity:0.5;"/>
         <div class="content">
             <h3>Blockchained India</h3>
             <p>An open community for the blockchain enthusiast in you.</p>
+            <div class="button-div">
             <a href="/#events" class="button button-blue">Meetup</a>
+            </div>
         </div>
     </div>
 
     <input class="slide" type="radio" name="slider-1" id="s-1-2" /><label for="s-1-2"></label>
-    <div>
-        <img class="header-background" src="https://i.imgur.com/SAV0Jm8.jpg" />
+    <div style="background-color:rgba(0,0,0,1)">
+        <img class="header-background" src="https://i.imgur.com/SAV0Jm8.jpg" style="opacity:0.5;"/>
         <div class="content">
             <h3>Learn and Grow with us</h3>
             <p>Read more on this emerging technology first hand!</p>
-            <a href="https://medium.com/blockchainedindia" class="button button-blue">Read More</a>
+            <div class="button-div">
+              <a href="https://medium.com/blockchainedindia" class="button button-blue">Read More</a>
+            </div>
         </div>
     </div>
 
     <input class="slide" type="radio" name="slider-1" id="s-1-3" checked /><label for="s-1-3"></label>
-    <div>
-        <img class="header-background" src="https://i.imgur.com/T7kI20m.jpg" />
+    <div style="background-color:rgba(0,0,0,1)">
+        <img class="header-background" src="https://i.imgur.com/T7kI20m.jpg" style="opacity:0.5;"/>
         <div class="content">
             <h3>Communities and Technology are two pillars to Blockchain revolution</h3>
             <p>Join today and be notified to all the updates to this fast growing community!</p>
-            <a href="/#footer" class="button button-blue">Subscribe</a>
+            <div class="button-div">
+              <a href="/#footer" class="button button-blue">Subscribe</a>
+            </div>
         </div>
     </div>
 
     <input class="slide" type="radio" name="slider-1" id="s-1-4" checked /><label for="s-1-4"></label>
-    <div>
-        <img class="header-background" src="https://i.imgur.com/wl0EIuq.jpg" />
+    <div style="background-color:rgba(0,0,0,1)">
+        <img class="header-background" src="https://i.imgur.com/wl0EIuq.jpg" style="opacity:0.5;"/>
         <div class="content">
             <h3 >Volunteer</h3>
             <p>If you like what we do and would like to grow with the team, then fill the form today.</p>
-            <a href="https://anirudhastark.typeform.com/to/EbFqHM" class="button button-blue typeform-share" data-mode="popup"  target="_blank">Volunteer with us</a>
+            <div class="button-div">
+              <a href="https://anirudhastark.typeform.com/to/EbFqHM" class="button button-blue typeform-share" data-mode="popup"  target="_blank">Volunteer with us</a>
+            </div>
         </div>
     </div>
 
     <input class="slide" type="radio" name="slider-1" id="s-1-5" checked /><label for="s-1-5"></label>
-    <div>
-        <img class="header-background" src="https://i.imgur.com/CAp1q9P.jpg" />
+    <div style="background-color:rgba(0,0,0,1)">
+        <img class="header-background" src="https://i.imgur.com/CAp1q9P.jpg" style="opacity:0.5;"/>
         <div class="content">
             <h3>Blockchained India</h3>
             <p>We are present in 4 cities with 15000+ members altogether.</p>
-            <a href="/#team" class="button button-blue">Our Team</a>
+            <div class="button-div">
+              <a href="/#team" class="button button-blue">Our Team</a>
+            </div>
         </div>
     </div>
 
     <style type="text/css">
+        .content h3{
+          text-align:center;
+          text-transform:uppercase;
+          margin:0;
+        }
+        .content p{
+          text-align:center;
+          margin:0;
+        }
+        .content a{
+          text-align:center;
+          margin:0 auto;
+        }
+        .button-div{
+          margin: 0 auto;
+          text-align: center;
+          margin-top:3%;
+        }
+
         #landing .slider-1 img.ratio {
             padding: 0 33%;
         }
 
         #landing .slider-1 .content {
-            max-width: 33%;
-            margin: 5% 0 0 18%;
+            max-width: 100%;
+            margin: 10% 0 0 0;
         }
 
         #landing .slider-1 .content h3 {
-            color: #ce8a49;
-            font-size: 2.125em;
+            color: #fe8f4f;
+            font-size: 2.8em;
             font-weight: normal;
-            margin: 0 0 4%;
         }
 
         #landing .slider-1 .content p {
@@ -89,8 +117,7 @@
         }
 
         #landing .slider-1 .button {
-            position: absolute;
-            bottom: 17%;
+
             min-width: 12.5em;
             font-size: .95em;
             font-weight: normal;

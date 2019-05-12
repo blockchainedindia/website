@@ -62,13 +62,13 @@ body {
 }
 
 #landing .button-blue {
-    background: #01b0fe;
-    border-color: #01b0fe;
+    background: #fe8f4f;
+    border-color: #fe8f4f;
 }
 
 #landing .button-blue:hover {
     background: transparent;
-    color: #01b0fe;
+    color: #fe8f4f;
 }
 
 #landing .button-orange {
@@ -125,7 +125,7 @@ body {
 
     display: inline-block;
     position: absolute;
-    left: 6em;    
+    left: 6em;
 }
 
 
@@ -162,7 +162,7 @@ body {
 
 #landing>.header>.header-item {
     font-size: .875em;
-    color: #03b4fe;
+    color: #fe8f4f;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
@@ -171,14 +171,14 @@ body {
 }
 
 #landing>.header>.header-item:hover {
-    border: .166em solid #03b4fe;
+    border: .166em solid #fe8f4f;
     border-radius: 2em;
     padding: 0 1em;
 }
 
 #landing>.menu {
     text-align: center;
-    background: #01b0fe;
+    background: #fe8f4f;
     font-size: 1.125em;
     padding: 1.278em 0;
 }
@@ -213,7 +213,7 @@ body {
     width: 9.3635em;
     height: 1.5em;
     line-height: 1.5em;
-    border-color: #01b0fe;
+    border-color: #fe8f4f;
 }
 
 #landing>.feature {
@@ -283,7 +283,7 @@ body {
 }
 
 #landing>.footer a {
-    color: #01affe;
+    color: #fe8f4f;
     text-decoration: none;
 }
 
@@ -339,7 +339,7 @@ body {
     padding: 0 1em;
     text-align: center;
     text-transform: uppercase;
-    background: #01affe;
+    background: #fe8f4f;
     color: #fff;
     cursor: pointer;
     margin-left: -0.4em;
@@ -368,7 +368,7 @@ body {
 }
 
 #landing>.copyright a {
-    color: #01affe;
+    color: #fe8f4f;
     text-decoration: none;
 }
 
