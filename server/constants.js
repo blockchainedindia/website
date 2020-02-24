@@ -724,6 +724,14 @@ exports.talks = function() {
             'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://drive.google.com/file/d/12sOGiEOxJJXf4ewhtX0EZZpU5lK1KaPS/view?usp=sharing',
             'isActive': true
+        },
+        {
+            'talkId': 49,
+            'talkTitle': 'Open Apps',
+            'speakerName': 'Akshay Aggarwal',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1nmwlpbSVkLPsahAt7EuP0d8rFNdqSEyq/view',
+            'isActive': true
         }
     ]
 };
