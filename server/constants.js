@@ -729,7 +729,7 @@ exports.talks = function() {
             'talkId': 49,
             'talkTitle': 'Open Apps',
             'speakerName': 'Akshay Aggarwal',
-            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkImg': 'https://i.imgur.com/UdTSONu.jpg',
             'talkUrl': 'https://drive.google.com/file/d/1nmwlpbSVkLPsahAt7EuP0d8rFNdqSEyq/view',
             'isActive': true
         }
