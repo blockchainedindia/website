@@ -732,6 +732,14 @@ exports.talks = function() {
             'talkImg': 'https://i.imgur.com/UdTSONu.jpg',
             'talkUrl': 'https://drive.google.com/file/d/1nmwlpbSVkLPsahAt7EuP0d8rFNdqSEyq/view',
             'isActive': true
+        },
+        {
+            'talkId': 50,
+            'talkTitle': 'Developing on Tangle',
+            'speakerName': 'Kumar Anirudha',
+            'talkImg': 'https://i.imgur.com/qgLgdbC.png',
+            'talkUrl': 'https://docs.google.com/presentation/d/1Jg8ji7TNje6F54L362BdTJit3T5LVnAaYEoGN6VirRY',
+            'isActive': true
         }
     ]
 };
