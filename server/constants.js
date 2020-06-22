@@ -740,6 +740,22 @@ exports.talks = function() {
             'talkImg': 'https://i.imgur.com/qgLgdbC.png',
             'talkUrl': 'https://docs.google.com/presentation/d/1Jg8ji7TNje6F54L362BdTJit3T5LVnAaYEoGN6VirRY',
             'isActive': true
+        },
+        {
+            'talkId': 51,
+            'talkTitle': 'Starting on Cosmos',
+            'speakerName': 'Tushar Aggarwal',
+            'talkImg': 'https://i.imgur.com/5aGvmNQ.png',
+            'talkUrl': 'https://drive.google.com/file/d/1GIFNG0RFoVG9d1eU5ZGXHW6Wcdcmgdfz/view',
+            'isActive': true
+        },
+        {
+            'talkId': 52,
+            'talkTitle': 'IOTA basics, verticals and use-cases',
+            'speakerName': 'Daniel De Michael',
+            'talkImg': 'https://i.imgur.com/kF7vfs2.png',
+            'talkUrl': 'https://drive.google.com/file/d/11rjfoVU4w4W1vDkwvTsovJ8rU0EkziVJ/view',
+            'isActive': true
         }
     ]
 };
