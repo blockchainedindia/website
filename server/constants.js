@@ -345,7 +345,7 @@ exports.talks = function() {
             'talkId': 1,
             'talkTitle': 'Dive into Blockchain',
             'speakerName': 'Kumar Anirudha',
-            'talkImg': 'https://www.mhlnews.com/sites/mhlnews.com/files/styles/article_featured_standard/public/blockchain_0.gif?itok=PyXp3cWH',
+            'talkImg': 'https://i.imgur.com/vXtrsUN.png',
             'talkUrl': 'https://anistark.github.io/talks/decentralising-with-ethereum',
             'isActive': true
         },
@@ -409,7 +409,7 @@ exports.talks = function() {
             'talkId': 9,
             'talkTitle': 'Bitcoin and Blockchain',
             'speakerName': 'Kumar Anirudha',
-            'talkImg': 'http://cryptotimes.org/wp-content/uploads/2018/03/Bitcoin%E2%80%99s-Blockchain.jpg',
+            'talkImg': 'https://i.imgur.com/wjKm8N9.png',
             'talkUrl': 'http://anistark.github.io/talks/bitcoinIntro',
             'isActive': true
         },
@@ -417,7 +417,7 @@ exports.talks = function() {
             'talkId': 10,
             'talkTitle': 'Types of Blockchain',
             'speakerName': 'Advaith Mohan',
-            'talkImg': 'https://blockchainsemantics.s3.amazonaws.com/media/system/blog/TYPES-OF-BLOCKCHAIN.jpg',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'http://slides.com/blockchainedindia/deck',
             'isActive': true
         },
@@ -433,7 +433,7 @@ exports.talks = function() {
             'talkId': 12,
             'talkTitle': 'InterPlanterary DataBase',
             'speakerName': 'Nilesh Trivedi',
-            'talkImg': 'https://pbs.twimg.com/profile_images/877835162033291264/qCw-_vHV_400x400.jpg',
+            'talkImg': 'https://i.imgur.com/3HqgaVO.png',
             'talkUrl': 'https://drive.google.com/file/d/1mDprxEF0cnaFXwQw0vYbthPy3khxOTcC/view',
             'isActive': true
         },
@@ -545,7 +545,7 @@ exports.talks = function() {
             'talkId': 26,
             'talkTitle': 'Blockchain Scaling Solutions',
             'speakerName': 'Anomit Ghosh',
-            'talkImg': 'https://proglib.io/wp-content/uploads/2018/04/blockchian-new.jpg',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://drive.google.com/file/d/186STC9qPFV4wPmupkdi1iJD5MZ-ymQIi/view?usp=sharing',
             'isActive': true
         },
@@ -553,7 +553,7 @@ exports.talks = function() {
             'talkId': 27,
             'talkTitle': 'Decoding ICO Myths',
             'speakerName': 'Nirmal L',
-            'talkImg': 'https://elevenews.com/wp-content/uploads/2018/04/ico1.jpg',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://drive.google.com/file/d/1MEzH-_i2OTCnu2MHEIbjh9Y_U0SSHzea/view?usp=sharing',
             'isActive': true
         },
