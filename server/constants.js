@@ -756,6 +756,22 @@ exports.talks = function() {
             'talkImg': 'https://i.imgur.com/kF7vfs2.png',
             'talkUrl': 'https://drive.google.com/file/d/11rjfoVU4w4W1vDkwvTsovJ8rU0EkziVJ/view',
             'isActive': true
+        },
+        {
+            'talkId': 53,
+            'talkTitle': 'Smartoptz RPM',
+            'speakerName': 'Brian Bong',
+            'talkImg': 'https://i.imgur.com/dxI6980.png',
+            'talkUrl': 'https://drive.google.com/file/d/17fsHueagpOuyUysmU9nc6orvNJKPOl7P/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 54,
+            'talkTitle': 'An introduction to IOTA client PoCs on System on Chip',
+            'speakerName': 'Sam Chen',
+            'talkImg': 'https://i.imgur.com/OLKyMf0.png',
+            'talkUrl': 'https://hackmd.io/@iZnScZJWRUGWFCeL6mfFEA/H1VV5N0iI#/',
+            'isActive': true
         }
     ]
 };
