@@ -183,7 +183,7 @@ exports.teamMembers = function() {
             'preName': '',
             'name': 'Vikas',
             'postName': 'Singh',
-            'picture': 'http://www.freestencilgallery.com/wp-content/uploads/2014/07/Thor-Stencil-thumb.jpg',
+            'picture': '#',
             'detail': 'Ethreum blockchain developer and crypto believer.',
             'socialHandles': {
                 'linkedin': 'https://www.linkedin.com/in/vikas-singh-8299a315',
@@ -393,7 +393,7 @@ exports.talks = function() {
             'talkId': 7,
             'talkTitle': 'Unravel the Mystery - Blockchain',
             'speakerName': 'Vikas Singh',
-            'talkImg': 'http://www.financnitrgi.com/wp-content/uploads/biometric_blockchain_bitcoin.jpg',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://drive.google.com/file/d/0B4pGqvGd5e8ic0Z5azN1bnJfWDA/view?usp=sharing',
             'isActive': true
         },
@@ -410,7 +410,7 @@ exports.talks = function() {
             'talkTitle': 'Bitcoin and Blockchain',
             'speakerName': 'Kumar Anirudha',
             'talkImg': 'https://i.imgur.com/wjKm8N9.png',
-            'talkUrl': 'http://anistark.github.io/talks/bitcoinIntro',
+            'talkUrl': 'https://anistark.github.io/talks/bitcoinIntro',
             'isActive': true
         },
         {
@@ -418,7 +418,7 @@ exports.talks = function() {
             'talkTitle': 'Types of Blockchain',
             'speakerName': 'Advaith Mohan',
             'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
-            'talkUrl': 'http://slides.com/blockchainedindia/deck',
+            'talkUrl': 'https://slides.com/blockchainedindia/deck',
             'isActive': true
         },
         {
@@ -458,7 +458,7 @@ exports.talks = function() {
             'talkTitle': 'Introduction to Tangle',
             'speakerName': 'Kumar Anirudha',
             'talkImg': 'https://kriptovalute.si/wp-content/uploads/2017/12/IOTA-Cryptocurrency.png',
-            'talkUrl': 'http://anistark.github.io/talks/tangleIntro/',
+            'talkUrl': 'https://anistark.github.io/talks/tangleIntro/',
             'isActive': true
         },
         {
@@ -505,7 +505,7 @@ exports.talks = function() {
             'talkId': 21,
             'talkTitle': 'The Applicability of Blockchain in Vehicular Telematics',
             'speakerName': 'NIRAV BAKSHI',
-            'talkImg': 'http://blog.autointhebox.com/wp-content/uploads/2015/03/What-does-vehicle-telematics-mean-to-car-people-874x492.jpg',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://drive.google.com/file/d/1_E1ROmmsnEWWvYYjD0X8ag4W_QVewa5T/view?usp=sharing',
             'isActive': true
         },

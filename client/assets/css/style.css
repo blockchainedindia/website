@@ -17,7 +17,6 @@ body {
     box-sizing: border-box;
     vertical-align: middle;
     text-overflow: ellipsis;
-    font-family: Montserrat, Arial, Helvetica, Tahoma, Verdana, sans-serif;
 }
 
 #landing {
@@ -26,6 +25,7 @@ body {
     padding-top: 4.0625em;
     background: #fff;
     text-align: center;
+    font-family: Montserrat, Arial, Helvetica, Tahoma, Verdana, sans-serif;
 }
 
 #landing {
