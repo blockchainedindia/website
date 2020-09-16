@@ -772,6 +772,30 @@ exports.talks = function() {
             'talkImg': 'https://i.imgur.com/OLKyMf0.png',
             'talkUrl': 'https://hackmd.io/@iZnScZJWRUGWFCeL6mfFEA/H1VV5N0iI#/',
             'isActive': true
+        },
+        {
+            'talkId': 55,
+            'talkTitle': 'The Unintended Consequences of Platform Economies',
+            'speakerName': 'Matt Spoke',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1Q7WcBbYn4E8-IIzoIhrNOJqRC-feC2YF/view',
+            'isActive': true
+        },
+        {
+            'talkId': 56,
+            'talkTitle': '100 Days of Code Open App Upskilling & Adoption',
+            'speakerName': 'Ian Chan & Akshay Aggarwal',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/1ZlXNeU3yOqDU4KKduHhBVKBEBVhnmnac/view',
+            'isActive': true
+        },
+        {
+            'talkId': 57,
+            'talkTitle': 'Indian Blockchain Landscape',
+            'speakerName': 'Akshay Aggarwal',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/18m_lJS6lsb80JR18IhELWL8rolY1CGgp/view',
+            'isActive': true
         }
     ]
 };
