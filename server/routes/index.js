@@ -33,12 +33,12 @@ router.get('/demo', function(req, res, next) {
     res.render('pages/demo', { title: 'Blockchained India' });
 });
 
-router.get('*', function(req, res, next) {
-    res.render('pages/error-pages/not_found', { title: 'Blockchained India | 404 | Not Found' });
-});
-
 router.get('/sendy_subscribeform', function (req, res, next) {
     res.render('pages/sendy_subscribeform', { title: 'Join our Subscriber list' });
+});
+
+router.get('*', function(req, res, next) {
+    res.render('pages/error-pages/not_found', { title: 'Blockchained India | 404 | Not Found' });
 });
 
 module.exports = router;
