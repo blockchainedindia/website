@@ -796,6 +796,22 @@ exports.talks = function() {
             'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://drive.google.com/file/d/18m_lJS6lsb80JR18IhELWL8rolY1CGgp/view',
             'isActive': true
+        },
+        {
+            'talkId': 58,
+            'talkTitle': 'Bootstrapping your ideas with Zilliqa',
+            'speakerName': 'Jun Hao Tan',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/158ds_WZhFyS1PKcGeAt0KSTG7QqTk29V/view?usp=sharing',
+            'isActive': true
+        },
+        {
+            'talkId': 59,
+            'talkTitle': 'Decentralized Finance',
+            'speakerName': 'Arnav Vohra',
+            'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
+            'talkUrl': 'https://drive.google.com/file/d/17fuqV4L0QmWfzzPOziFRiHvbdVcOHdke/view?usp=sharing',
+            'isActive': true
         }
     ]
 };
