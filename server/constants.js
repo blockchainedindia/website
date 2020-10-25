@@ -812,6 +812,14 @@ exports.talks = function() {
             'talkImg': 'https://i.imgur.com/5AvJjVG.jpg',
             'talkUrl': 'https://drive.google.com/file/d/17fuqV4L0QmWfzzPOziFRiHvbdVcOHdke/view?usp=sharing',
             'isActive': true
+        },
+        {
+            'talkId': 60,
+            'talkTitle': 'Breaking The Myths Of Understanding Blockchain & Its Use Cases',
+            'speakerName': 'Draper Startup House India',
+            'talkImg': 'https://i.imgur.com/mEP6eV8.png',
+            'talkUrl': 'https://drive.google.com/file/d/1u0ZgPJ93_KDypONvtrUji4Utb3VZkMbz/view',
+            'isActive': true
         }
     ]
 };
