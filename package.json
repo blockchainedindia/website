@@ -12,7 +12,7 @@
     "body-parser": "~1.19.1",
     "cookie-parser": "~1.4.6",
     "debug": ">=4.3.3",
-    "express": "~4.17.2",
+    "express": "~4.17.3",
     "express-session": "^1.17.2",
     "fcm-node": "^1.6.1",
     "fs": "0.0.1-security",
